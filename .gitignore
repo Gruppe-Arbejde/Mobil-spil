@@ -34,5 +34,6 @@
 # Logs
 *.log
 
-# Log folder
+# Ignored folders
+**/Logs/
 **/Temp/
