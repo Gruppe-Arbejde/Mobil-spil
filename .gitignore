@@ -41,3 +41,6 @@
 
 # idk
 PackageCache/*.meta
+Tech Tapper/Library/ArtifactDB
+Tech Tapper/Library/SourceAssetDB
+Tech Tapper/ProjectSettings/TimelineSettings.asset
