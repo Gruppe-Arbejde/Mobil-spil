@@ -39,3 +39,6 @@
 **/Temp/
 **/PackageCache/
 
+# idk
+PackageCache/*.meta
+
