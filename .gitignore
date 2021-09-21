@@ -35,9 +35,8 @@
 *.log
 
 # Ignored folders
-**/Logs/
-**/Temp/
-**/PackageCache/
+Tech Tapper\Logs
+Tech Tapper\Temp
 
 # idk
 PackageCache/*.meta
