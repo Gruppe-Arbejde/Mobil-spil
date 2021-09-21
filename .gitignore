@@ -37,3 +37,5 @@
 # Ignored folders
 **/Logs/
 **/Temp/
+**/PackageCache/
+
