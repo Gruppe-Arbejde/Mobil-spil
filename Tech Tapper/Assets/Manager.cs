@@ -30,7 +30,6 @@ public class Manager : MonoBehaviour
         if (hasUpgrade)
         {
             TotalClicks += autoClicksPerSecond * Time.deltaTime;
-
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
     }
