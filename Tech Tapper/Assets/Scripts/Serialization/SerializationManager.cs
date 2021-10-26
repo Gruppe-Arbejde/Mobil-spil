@@ -4,10 +4,10 @@ using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using static System.Net.Mime.MediaTypeNames;
-using 
 
 
-public class Se : MonoBehaviour
+
+public class Se
 {
     public static bool Save(string saveName, object saveData) //takes in the saveName string and the object saveData, and returns a boolean to make sure that it was successful 
     {
@@ -51,6 +51,8 @@ public class Se : MonoBehaviour
         catch
         {
             Debug.LogErrorFormat("Failed to load file at {0}", path);
+            file.Close();
+            return null;
 
 
         }
