@@ -1,15 +1,17 @@
-½using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BackgroundMusic : MonoBehaviour
 {
-    private void Awake()
+    private static BackgroundMusic backgroundMusic;
+    
+    void Awake()
     {
-        if (BackgroundMusic == null)
+        if (backgroundMusic == null)
         {
-            BackgroundMusic = this;
-            DontDestroyOnLoad(BackgroundMusic);
+            backgroundMusic = this;
+            DontDestroyOnLoad(backgroundMusic);
         }
 
         else
