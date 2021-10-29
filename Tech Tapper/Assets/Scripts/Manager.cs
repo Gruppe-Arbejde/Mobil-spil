@@ -10,7 +10,7 @@ public class Manager : MonoBehaviour
 
     public void Start()
     {
-        TotalClicks = SaveManager.instance.TotalClicks; //Overwrites the amount of clicks with the one loaded
+        TotalClicks = SaveManager.instance.LoadedClicks; //Overwrites the amount of clicks with the one loaded
     }
 
     // Default Auto click
@@ -30,7 +30,7 @@ public class Manager : MonoBehaviour
     {
         TotalClicks++;
         ClicksTotalText.text = TotalClicks.ToString("0");
-        SaveManager.instance.TotalClicks = TotalClicks; //Saves the amount of clicks to the SaveManager
+        SaveManager.instance.LoadedClicks = TotalClicks; //Saves the amount of clicks to the SaveManager
         SaveManager.instance.Save(); 
     }
     //-------------------------------------------------------------------------------------------------------
