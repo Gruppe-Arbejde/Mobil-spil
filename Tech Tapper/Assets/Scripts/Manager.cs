@@ -8,6 +8,11 @@ public class Manager : MonoBehaviour
     public Text ClicksTotalText;
     float TotalClicks;
 
+    public void Start()
+    {
+        TotalClicks = SaveManager.instance.TotalClicks; //Overwrites the amount of clicks with the one loaded
+    }
+
     // Default Auto click
     bool hasUpgrade;
     public int autoClicksPerSecond;
@@ -25,6 +30,8 @@ public class Manager : MonoBehaviour
     {
         TotalClicks++;
         ClicksTotalText.text = TotalClicks.ToString("0");
+        SaveManager.instance.TotalClicks = TotalClicks; //Saves the amount of clicks to the SaveManager
+        SaveManager.instance.Save(); 
     }
     //-------------------------------------------------------------------------------------------------------
 
