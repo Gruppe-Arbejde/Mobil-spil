@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
      <Compile Include="Assets\Scripts\SoundManager.cs" />
      <Compile Include="Assets\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Scripts\SettingsHandler.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
      <None Include="Assets\Scripts\BLUR.shader" />
  <Reference Include="UnityEngine">
