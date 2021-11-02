@@ -6,41 +6,47 @@ public class ButtonHandler : MonoBehaviour
 {
     public GameObject Main;
     public GameObject Shop;
+    public GameObject Buildings;
     public GameObject Settings;
 
     public void whenMainButtonClicked()
     {
-        if (Main.activeInHierarchy == false)
+        if (Main.activeInHierarchy == false )
 
+        {
+            Shop.SetActive(false);
             Main.SetActive(true);
-
+            Settings.SetActive(false);
+            Buildings.SetActive(false);
+        }
         else
-
-            Main.SetActive(false);
+        {
+            Settings.SetActive(false);
+            Shop.SetActive(false);
+            Buildings.SetActive(false);
+        }
 
     }
 
-    public void whenSettingsButtonClicked()
+    public void whenBuildingsButtonClicked()
     {
-        if (Settings.activeInHierarchy == false)
-
-            Settings.SetActive(true);
-
-        else
-
+        if (Buildings.activeInHierarchy == false)
+        {
+            Shop.SetActive(false);
             Settings.SetActive(false);
-
+            //Main.SetActive(false);
+            Buildings.SetActive(true);
+        }
     }
 
     public void whenShopButtonClicked()
     {
         if (Shop.activeInHierarchy == false)
-
+        {
+            Buildings.SetActive(false);
+            Settings.SetActive(false);
+            //Main.SetActive(false);
             Shop.SetActive(true);
-
-        else
-
-            Shop.SetActive(false);
-
+        }
     }
 }
