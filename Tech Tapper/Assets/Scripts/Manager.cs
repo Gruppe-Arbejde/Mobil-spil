@@ -20,6 +20,26 @@ public class Manager : MonoBehaviour
     public int minimumClicksToUnlockKeyboad;
     //-------------------------------------------------------------------------------------------------------
 
+    // Mouse Auto click
+    bool hasMouse;
+    public int MouseClicksPerSecond;
+    public int minimumClicksToUnlockMouse;
+    //-------------------------------------------------------------------------------------------------------
+    
+    
+    // Monitor Auto click
+    bool hasMonitor;
+    public int MonitorClicksPerSecond;
+    public int minimumClicksToUnlockMonitor;
+    //-------------------------------------------------------------------------------------------------------
+
+    // Computer Auto click
+    bool hasComputer;
+    public int ComputerClicksPerSecond;
+    public int minimumClicksToUnlockComputer;
+    //-------------------------------------------------------------------------------------------------------
+
+
     // Default Click
     public void AddClicks()
     {
@@ -49,6 +69,36 @@ public class Manager : MonoBehaviour
             hasKeyboard = true;
         }
     }
+
+    // Mouse Auto Click
+    public void AutoMouseUpgrade()
+    {
+        if (!hasMouse && TotalClicks >= minimumClicksToUnlockMouse)
+        {
+            TotalClicks -= minimumClicksToUnlockMouse;
+            hasMouse = true;
+        }
+    }
+    
+    // Monitor Auto Click
+    public void AutoMonitorUpgrade()
+    {
+        if (!hasMonitor && TotalClicks >= minimumClicksToUnlockMonitor)
+        {
+            TotalClicks -= minimumClicksToUnlockMonitor;
+            hasMonitor = true;
+        }
+    }
+
+    // Computer Auto Click
+    public void AutoComputerUpgrade()
+    {
+        if (!hasComputer && TotalClicks >= minimumClicksToUnlockComputer)
+        {
+            TotalClicks -= minimumClicksToUnlockComputer;
+            hasComputer = true;
+        }
+    }
     //-------------------------------------------------------------------------------------------------------
 
     // Update
@@ -65,6 +115,26 @@ public class Manager : MonoBehaviour
             TotalClicks += keyboardClicksPerSecond * Time.deltaTime;
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
+     
+          if (hasMouse)
+        {
+            TotalClicks += MouseClicksPerSecond * Time.deltaTime;
+            ClicksTotalText.text = TotalClicks.ToString("0");
+        }
+        
+          if (hasMonitor)
+        {
+            TotalClicks += MonitorClicksPerSecond * Time.deltaTime;
+            ClicksTotalText.text = TotalClicks.ToString("0");
+        }
+
+          if (hasComputer)
+        {
+            TotalClicks += ComputerClicksPerSecond * Time.deltaTime;
+            ClicksTotalText.text = TotalClicks.ToString("0");
+        }
+        
+
     }
 
 }
