@@ -5,7 +5,7 @@ using UnityEngine;
 public class SettingsHandler : MonoBehaviour
 {
     public GameObject Settings;
-    public GameObject Shop;
+    public GameObject Hardware;
     public GameObject Buildings;
 
     public void whenSettingsButtonClicked()
@@ -13,7 +13,7 @@ public class SettingsHandler : MonoBehaviour
         if (Settings.activeInHierarchy == false ) // If Settings is not active
         {
             // Then Disable Shop and buildings and enable Settings
-            Shop.SetActive(false);
+            Hardware.SetActive(false);
             Buildings.SetActive(false);
             Settings.SetActive(true);
         }

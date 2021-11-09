@@ -5,7 +5,7 @@ using UnityEngine;
 public class ButtonHandler : MonoBehaviour
 {
     public GameObject Main;
-    public GameObject Shop;
+    public GameObject Hardware;
     public GameObject Buildings;
     public GameObject Settings;
 
@@ -14,7 +14,7 @@ public class ButtonHandler : MonoBehaviour
         if (Main.activeInHierarchy == false )
 
         {
-            Shop.SetActive(false);
+           Hardware.SetActive(false);
             Main.SetActive(true);
             Settings.SetActive(false);
             Buildings.SetActive(false);
@@ -22,7 +22,7 @@ public class ButtonHandler : MonoBehaviour
         else
         {
             Settings.SetActive(false);
-            Shop.SetActive(false);
+            Hardware.SetActive(false);
             Buildings.SetActive(false);
         }
 
@@ -32,7 +32,7 @@ public class ButtonHandler : MonoBehaviour
     {
         if (Buildings.activeInHierarchy == false)
         {
-            Shop.SetActive(false);
+            Hardware.SetActive(false);
             Settings.SetActive(false);
             //Main.SetActive(false);
             Buildings.SetActive(true);
@@ -41,12 +41,12 @@ public class ButtonHandler : MonoBehaviour
 
     public void whenShopButtonClicked()
     {
-        if (Shop.activeInHierarchy == false)
+        if (Hardware.activeInHierarchy == false)
         {
             Buildings.SetActive(false);
             Settings.SetActive(false);
             //Main.SetActive(false);
-            Shop.SetActive(true);
+            Hardware.SetActive(true);
         }
     }
 }

@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 427193720}
   - component: {fileID: 427193719}
   m_Layer: 6
-  m_Name: SettingsButton
+  m_Name: HardwareButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Settings: {fileID: 1774247655}
-  Shop: {fileID: 1109292255}
+  Hardware: {fileID: 1109292255}
   Buildings: {fileID: 676979563}
 --- !u!1 &462893482
 GameObject:
@@ -1687,7 +1687,7 @@ GameObject:
   - component: {fileID: 501983815}
   - component: {fileID: 501983817}
   m_Layer: 6
-  m_Name: ShopButton
+  m_Name: BuildingsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3633,7 +3633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109292256}
   m_Layer: 5
-  m_Name: Shop
+  m_Name: Hardware
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4164,8 +4164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a24ebe87e9a57734fb929922af5ad3d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundOnIcon: {fileID: 640174338}
-  soundOffIcon: {fileID: 385480737}
+  soundOnIcon: {fileID: 0}
+  soundOffIcon: {fileID: 0}
 --- !u!1 &1364321198
 GameObject:
   m_ObjectHideFlags: 0
@@ -6048,7 +6048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Main: {fileID: 791256909}
-  Shop: {fileID: 1109292255}
+  Hardware: {fileID: 1109292255}
   Buildings: {fileID: 676979563}
   Settings: {fileID: 1774247655}
 --- !u!1 &2081527477
