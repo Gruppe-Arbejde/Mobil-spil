@@ -2,15 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor;
 
 public class Manager : MonoBehaviour
 {
+    public static Manager instance { get; private set; }
+
     public Text ClicksTotalText;
-    float TotalClicks;
+    public float TotalClicks;
+
+
+    
 
     public void Start()
-    {
+    { 
         TotalClicks = SaveManager.instance.LoadedClicks; //Overwrites the amount of clicks with the one loaded
+        ClicksTotalText.text = TotalClicks.ToString("0"); //Overwrites the amount of clicks up in the textfield with the correct one
     }
 
     // Default Auto click

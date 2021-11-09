@@ -5,6 +5,7 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
+
 public class SaveManager : MonoBehaviour
 {
     public static SaveManager instance { get; private set; }
@@ -31,8 +32,9 @@ public class SaveManager : MonoBehaviour
 
             LoadedClicks = data.LoadedClicks; //overwrites the amount of current clicks with the one from the loaded file
 
-            file.Close();
+            file.Close(); //Closes the file
 
+          
         }
     }
 
@@ -42,12 +44,12 @@ public class SaveManager : MonoBehaviour
         
         //persistentDataPath makes sure to overwrite existing save files if they are present
         FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat");
-        PlayerData_Storage data = new PlayerData_Storage();
+        PlayerData_Storage data = new PlayerData_Storage(); 
 
-        data.LoadedClicks = LoadedClicks;
+        data.LoadedClicks = LoadedClicks; //Saves the amount of clicks
 
-        bf.Serialize(file, data);
-        file.Close();
+        bf.Serialize(file, data); //Converts the data into binary so that it can be loaded later on
+        file.Close(); //Closes the file
     }
 }
 
