@@ -10,7 +10,7 @@ public class SettingsHandler : MonoBehaviour
 
     public void whenSettingsButtonClicked()
     {
-        if (Settings.activeInHierarchy == false ) // If Settings is not active
+        if (Settings.activeInHierarchy == false ) // If Settings is not active.
         {
             // Then Disable Shop and buildings and enable Settings
             Hardware.SetActive(false);
