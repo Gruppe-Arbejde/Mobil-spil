@@ -33,7 +33,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/Main.unity:
     - Class: 1
@@ -78,6 +81,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3352}
     - Class: 114
       Script: {instanceID: 3710}
+    - Class: 114
+      Script: {instanceID: 3736}
+    - Class: 114
+      Script: {instanceID: 4354}
+    - Class: 114
+      Script: {instanceID: 4550}
     - Class: 114
       Script: {instanceID: 5330}
     - Class: 115
@@ -237,7 +246,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: 81ca311ea09edc1ca7819cfd856dac92
+      Hash: e2e61e07ad0e1248464a8a52eb2f1df6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonHandler
@@ -399,7 +408,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: a08467a5eb5a091edbac3877a5b5d09d
+      Hash: 81c3e9fa4af18165ed582126e841aef6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SettingsHandler
@@ -646,4 +655,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/test.apk
+  playerPath: C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/test.apk

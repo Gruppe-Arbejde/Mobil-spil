@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - Assets/Scripts/PlayBackgroundMusic.cs
+    - Assets/Scripts/PlayBackgroundMusic.cs.meta
+    - 
+    m_Values: 010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

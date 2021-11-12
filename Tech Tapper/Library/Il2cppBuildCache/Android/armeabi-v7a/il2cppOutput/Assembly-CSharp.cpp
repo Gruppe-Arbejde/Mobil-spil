@@ -639,8 +639,8 @@ struct ButtonHandler_t94007A209E3553864E89A5746CEB66A242A16D84  : public MonoBeh
 public:
 	// UnityEngine.GameObject ButtonHandler::Main
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Main_4;
-	// UnityEngine.GameObject ButtonHandler::Shop
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Shop_5;
+	// UnityEngine.GameObject ButtonHandler::Hardware
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Hardware_5;
 	// UnityEngine.GameObject ButtonHandler::Buildings
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Buildings_6;
 	// UnityEngine.GameObject ButtonHandler::Settings
@@ -656,13 +656,13 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___Main_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_Shop_5() { return static_cast<int32_t>(offsetof(ButtonHandler_t94007A209E3553864E89A5746CEB66A242A16D84, ___Shop_5)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_Shop_5() const { return ___Shop_5; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_Shop_5() { return &___Shop_5; }
-	inline void set_Shop_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_Hardware_5() { return static_cast<int32_t>(offsetof(ButtonHandler_t94007A209E3553864E89A5746CEB66A242A16D84, ___Hardware_5)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_Hardware_5() const { return ___Hardware_5; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_Hardware_5() { return &___Hardware_5; }
+	inline void set_Hardware_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
 	{
-		___Shop_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___Shop_5), (void*)value);
+		___Hardware_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Hardware_5), (void*)value);
 	}
 
 	inline static int32_t get_offset_of_Buildings_6() { return static_cast<int32_t>(offsetof(ButtonHandler_t94007A209E3553864E89A5746CEB66A242A16D84, ___Buildings_6)); }
@@ -780,8 +780,8 @@ struct SettingsHandler_t77CF05587300115A94C7C10D741D615B1FC918C8  : public MonoB
 public:
 	// UnityEngine.GameObject SettingsHandler::Settings
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Settings_4;
-	// UnityEngine.GameObject SettingsHandler::Shop
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Shop_5;
+	// UnityEngine.GameObject SettingsHandler::Hardware
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Hardware_5;
 	// UnityEngine.GameObject SettingsHandler::Buildings
 	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Buildings_6;
 
@@ -795,13 +795,13 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___Settings_4), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_Shop_5() { return static_cast<int32_t>(offsetof(SettingsHandler_t77CF05587300115A94C7C10D741D615B1FC918C8, ___Shop_5)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_Shop_5() const { return ___Shop_5; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_Shop_5() { return &___Shop_5; }
-	inline void set_Shop_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	inline static int32_t get_offset_of_Hardware_5() { return static_cast<int32_t>(offsetof(SettingsHandler_t77CF05587300115A94C7C10D741D615B1FC918C8, ___Hardware_5)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_Hardware_5() const { return ___Hardware_5; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_Hardware_5() { return &___Hardware_5; }
+	inline void set_Hardware_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
 	{
-		___Shop_5 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___Shop_5), (void*)value);
+		___Hardware_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Hardware_5), (void*)value);
 	}
 
 	inline static int32_t get_offset_of_Buildings_6() { return static_cast<int32_t>(offsetof(SettingsHandler_t77CF05587300115A94C7C10D741D615B1FC918C8, ___Buildings_6)); }
@@ -1672,8 +1672,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonHandler_whenMainButtonClicked_mCEB
 		}
 	}
 	{
-		// Shop.SetActive(false);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_2 = __this->get_Shop_5();
+		// Hardware.SetActive(false);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_2 = __this->get_Hardware_5();
 		NullCheck(L_2);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_2, (bool)0, /*hidden argument*/NULL);
 		// Main.SetActive(true);
@@ -1698,8 +1698,8 @@ IL_003e:
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6 = __this->get_Settings_7();
 		NullCheck(L_6);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_6, (bool)0, /*hidden argument*/NULL);
-		// Shop.SetActive(false);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_7 = __this->get_Shop_5();
+		// Hardware.SetActive(false);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_7 = __this->get_Hardware_5();
 		NullCheck(L_7);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_7, (bool)0, /*hidden argument*/NULL);
 		// Buildings.SetActive(false);
@@ -1725,8 +1725,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonHandler_whenBuildingsButtonClicked
 		}
 	}
 	{
-		// Shop.SetActive(false);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_2 = __this->get_Shop_5();
+		// Hardware.SetActive(false);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_2 = __this->get_Hardware_5();
 		NullCheck(L_2);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_2, (bool)0, /*hidden argument*/NULL);
 		// Settings.SetActive(false);
@@ -1749,8 +1749,8 @@ IL_0031:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonHandler_whenShopButtonClicked_m7B4C397C7EE74EFBB6BE45C8C2F3F3557BF766DB (ButtonHandler_t94007A209E3553864E89A5746CEB66A242A16D84 * __this, const RuntimeMethod* method)
 {
 	{
-		// if (Shop.activeInHierarchy == false)
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_Shop_5();
+		// if (Hardware.activeInHierarchy == false)
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_Hardware_5();
 		NullCheck(L_0);
 		bool L_1;
 		L_1 = GameObject_get_activeInHierarchy_mA3990AC5F61BB35283188E925C2BE7F7BF67734B(L_0, /*hidden argument*/NULL);
@@ -1768,8 +1768,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonHandler_whenShopButtonClicked_m7B4
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_3 = __this->get_Settings_7();
 		NullCheck(L_3);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_3, (bool)0, /*hidden argument*/NULL);
-		// Shop.SetActive(true);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_4 = __this->get_Shop_5();
+		// Hardware.SetActive(true);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_4 = __this->get_Hardware_5();
 		NullCheck(L_4);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_4, (bool)1, /*hidden argument*/NULL);
 	}
@@ -1972,7 +1972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Manager__ctor_m5B9F7AAE653DB0466943D59D3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler_whenSettingsButtonClicked_mCFEA47644977918DE8CEB4CD609DD237DE22DEF0 (SettingsHandler_t77CF05587300115A94C7C10D741D615B1FC918C8 * __this, const RuntimeMethod* method)
 {
 	{
-		// if (Settings.activeInHierarchy == false ) // If Settings is not active
+		// if (Settings.activeInHierarchy == false ) // If Settings is not active.
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_Settings_4();
 		NullCheck(L_0);
 		bool L_1;
@@ -1983,8 +1983,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler_whenSettingsButtonClicke
 		}
 	}
 	{
-		// Shop.SetActive(false);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_2 = __this->get_Shop_5();
+		// Hardware.SetActive(false);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_2 = __this->get_Hardware_5();
 		NullCheck(L_2);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_2, (bool)0, /*hidden argument*/NULL);
 		// Buildings.SetActive(false);
