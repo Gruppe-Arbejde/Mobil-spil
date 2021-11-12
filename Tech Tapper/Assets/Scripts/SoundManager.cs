@@ -9,7 +9,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] Image soundOffIcon;
     private bool muted = false;
 
-    // start is called before the first frame update
+    // start is called before the first frame update.
     private void Start()
     {
         if (!PlayerPrefs.HasKey("muted"))
