@@ -24,33 +24,49 @@ extern void ButtonHandler_whenBuildingsButtonClicked_mB755662670A321B68ACD75723B
 extern void ButtonHandler_whenShopButtonClicked_m7B4C397C7EE74EFBB6BE45C8C2F3F3557BF766DB (void);
 // 0x00000006 System.Void ButtonHandler::.ctor()
 extern void ButtonHandler__ctor_m82B40207AA23D43BF1E41E7ED89A94945391FBE7 (void);
-// 0x00000007 System.Void Manager::AddClicks()
+// 0x00000007 System.Void ClickSFXManager::Start()
+extern void ClickSFXManager_Start_mF2E46C00B74CD099EEF9DFE46808AE45D2C10363 (void);
+// 0x00000008 System.Void ClickSFXManager::OnButtonPress()
+extern void ClickSFXManager_OnButtonPress_m127618DB146E5C18E9C3DD95B372049551617F24 (void);
+// 0x00000009 System.Void ClickSFXManager::UpdateButtonIcon()
+extern void ClickSFXManager_UpdateButtonIcon_m31ADF232FACF8C566AF19E32DCEB285C952BAFE0 (void);
+// 0x0000000A System.Void ClickSFXManager::Load()
+extern void ClickSFXManager_Load_m543BBF238079B58D25AB0983DAB71E7F3E770D4F (void);
+// 0x0000000B System.Void ClickSFXManager::Save()
+extern void ClickSFXManager_Save_m1D4FFBB97535EEFE39F8889411D5D8CF2797AA19 (void);
+// 0x0000000C System.Void ClickSFXManager::.ctor()
+extern void ClickSFXManager__ctor_m1FFA508875217F452E481C91F52CC75C9D71274C (void);
+// 0x0000000D System.Void Manager::AddClicks()
 extern void Manager_AddClicks_mF8A24A2ECF678A71A542708ABF57AEF745768300 (void);
-// 0x00000008 System.Void Manager::AutoClickUpgrade()
+// 0x0000000E System.Void Manager::AutoClickUpgrade()
 extern void Manager_AutoClickUpgrade_m3F85D95B2792DD87687083032254A77916140BED (void);
-// 0x00000009 System.Void Manager::AutoKeyboardUpgrade()
+// 0x0000000F System.Void Manager::AutoKeyboardUpgrade()
 extern void Manager_AutoKeyboardUpgrade_m7F08FF11B26339E44535ADAEFEAD1A4DCCD6B456 (void);
-// 0x0000000A System.Void Manager::Update()
+// 0x00000010 System.Void Manager::Update()
 extern void Manager_Update_m75BF2DFC9C300743E190F02E9D8427F36DB70780 (void);
-// 0x0000000B System.Void Manager::.ctor()
+// 0x00000011 System.Void Manager::.ctor()
 extern void Manager__ctor_m5B9F7AAE653DB0466943D59D3579FFCCFC32631E (void);
-// 0x0000000C System.Void SettingsHandler::whenSettingsButtonClicked()
+// 0x00000012 System.Void MusicHandler::Start()
+extern void MusicHandler_Start_mB7DCB86D006DBFF8184EE665CB987644D9D345C3 (void);
+// 0x00000013 System.Void MusicHandler::OnButtonPress()
+extern void MusicHandler_OnButtonPress_mD279C7D5CEF5349B2199BD8AF2B8CEA501A3102F (void);
+// 0x00000014 System.Void MusicHandler::UpdateButtonIcon()
+extern void MusicHandler_UpdateButtonIcon_m711E6AE861595BDA952B9DCC8058E82943A9F89D (void);
+// 0x00000015 System.Void MusicHandler::Load()
+extern void MusicHandler_Load_mE4C915DDFF982CFA46F15E1CFC94F6DFA68988ED (void);
+// 0x00000016 System.Void MusicHandler::Save()
+extern void MusicHandler_Save_m80FFC20DBD02C4713AD31517621F4A2DC165165B (void);
+// 0x00000017 System.Void MusicHandler::.ctor()
+extern void MusicHandler__ctor_m11544F6AB94FDA349E4CF8FBA35258EBAA1B64E3 (void);
+// 0x00000018 System.Void PlaySoundEffect::playSoundEffect()
+extern void PlaySoundEffect_playSoundEffect_mBDACE70AFF6D0364DCF3B91E89D25515D0241D86 (void);
+// 0x00000019 System.Void PlaySoundEffect::.ctor()
+extern void PlaySoundEffect__ctor_mB6125DA543730E77901A9F941F88ED99FBD4526C (void);
+// 0x0000001A System.Void SettingsHandler::whenSettingsButtonClicked()
 extern void SettingsHandler_whenSettingsButtonClicked_mCFEA47644977918DE8CEB4CD609DD237DE22DEF0 (void);
-// 0x0000000D System.Void SettingsHandler::.ctor()
+// 0x0000001B System.Void SettingsHandler::.ctor()
 extern void SettingsHandler__ctor_m07E9A02B759F7ADC8C7719508E05F3FB5C578B9C (void);
-// 0x0000000E System.Void SoundManager::Start()
-extern void SoundManager_Start_mE4854722D4248D4CCD33E4202389B3F187C51303 (void);
-// 0x0000000F System.Void SoundManager::OnButtonPress()
-extern void SoundManager_OnButtonPress_mFC5404A784296ED7B9B58DF13091D2F5D0C77FBB (void);
-// 0x00000010 System.Void SoundManager::UpdateButtonIcon()
-extern void SoundManager_UpdateButtonIcon_mB2445101A2FE981C868AE833E86F641994F5791A (void);
-// 0x00000011 System.Void SoundManager::Load()
-extern void SoundManager_Load_m5AB9377FE608B6595C7730F9DC31DADCAC06A4CA (void);
-// 0x00000012 System.Void SoundManager::Save()
-extern void SoundManager_Save_m981BC32320D8080F1717EDD6251F1037BDFBFE15 (void);
-// 0x00000013 System.Void SoundManager::.ctor()
-extern void SoundManager__ctor_m30D18BC25871BD3FF7FB195A1CAE50A2EE48FCAE (void);
-static Il2CppMethodPointer s_methodPointers[19] = 
+static Il2CppMethodPointer s_methodPointers[27] = 
 {
 	BackgroundMusic_Awake_m31BF75D5481F04E7E470C1FEE1E0DBB132541E4C,
 	BackgroundMusic__ctor_mFAF73BB5306195FC55C0A395C6FA4102359391FD,
@@ -58,48 +74,64 @@ static Il2CppMethodPointer s_methodPointers[19] =
 	ButtonHandler_whenBuildingsButtonClicked_mB755662670A321B68ACD75723B8BF3E57FFEBDCC,
 	ButtonHandler_whenShopButtonClicked_m7B4C397C7EE74EFBB6BE45C8C2F3F3557BF766DB,
 	ButtonHandler__ctor_m82B40207AA23D43BF1E41E7ED89A94945391FBE7,
+	ClickSFXManager_Start_mF2E46C00B74CD099EEF9DFE46808AE45D2C10363,
+	ClickSFXManager_OnButtonPress_m127618DB146E5C18E9C3DD95B372049551617F24,
+	ClickSFXManager_UpdateButtonIcon_m31ADF232FACF8C566AF19E32DCEB285C952BAFE0,
+	ClickSFXManager_Load_m543BBF238079B58D25AB0983DAB71E7F3E770D4F,
+	ClickSFXManager_Save_m1D4FFBB97535EEFE39F8889411D5D8CF2797AA19,
+	ClickSFXManager__ctor_m1FFA508875217F452E481C91F52CC75C9D71274C,
 	Manager_AddClicks_mF8A24A2ECF678A71A542708ABF57AEF745768300,
 	Manager_AutoClickUpgrade_m3F85D95B2792DD87687083032254A77916140BED,
 	Manager_AutoKeyboardUpgrade_m7F08FF11B26339E44535ADAEFEAD1A4DCCD6B456,
 	Manager_Update_m75BF2DFC9C300743E190F02E9D8427F36DB70780,
 	Manager__ctor_m5B9F7AAE653DB0466943D59D3579FFCCFC32631E,
+	MusicHandler_Start_mB7DCB86D006DBFF8184EE665CB987644D9D345C3,
+	MusicHandler_OnButtonPress_mD279C7D5CEF5349B2199BD8AF2B8CEA501A3102F,
+	MusicHandler_UpdateButtonIcon_m711E6AE861595BDA952B9DCC8058E82943A9F89D,
+	MusicHandler_Load_mE4C915DDFF982CFA46F15E1CFC94F6DFA68988ED,
+	MusicHandler_Save_m80FFC20DBD02C4713AD31517621F4A2DC165165B,
+	MusicHandler__ctor_m11544F6AB94FDA349E4CF8FBA35258EBAA1B64E3,
+	PlaySoundEffect_playSoundEffect_mBDACE70AFF6D0364DCF3B91E89D25515D0241D86,
+	PlaySoundEffect__ctor_mB6125DA543730E77901A9F941F88ED99FBD4526C,
 	SettingsHandler_whenSettingsButtonClicked_mCFEA47644977918DE8CEB4CD609DD237DE22DEF0,
 	SettingsHandler__ctor_m07E9A02B759F7ADC8C7719508E05F3FB5C578B9C,
-	SoundManager_Start_mE4854722D4248D4CCD33E4202389B3F187C51303,
-	SoundManager_OnButtonPress_mFC5404A784296ED7B9B58DF13091D2F5D0C77FBB,
-	SoundManager_UpdateButtonIcon_mB2445101A2FE981C868AE833E86F641994F5791A,
-	SoundManager_Load_m5AB9377FE608B6595C7730F9DC31DADCAC06A4CA,
-	SoundManager_Save_m981BC32320D8080F1717EDD6251F1037BDFBFE15,
-	SoundManager__ctor_m30D18BC25871BD3FF7FB195A1CAE50A2EE48FCAE,
 };
-static const int32_t s_InvokerIndices[19] = 
+static const int32_t s_InvokerIndices[27] = 
 {
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
-	1111,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
+	1101,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	19,
+	27,
 	s_methodPointers,
 	0,
 	NULL,

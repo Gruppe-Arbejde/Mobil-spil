@@ -18,41 +18,43 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.18f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"C:\\Users\\Maximus Janning Juul\\Documents\\GitHub\\Mobil-spil\\Tech Tapper\\Library\\Il2cppBuildCache\\Android\\armeabi-v7a\\Native\\armeabi-v7a\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\Maximus Janning Juul\\Documents\\GitHub\\Mobil-spil\\Tech Tapper\\Assets\\..\\Library\\il2cpp_android_armeabi-v7a/il2cpp_cache\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=\"C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed\" --generatedcppdir=\"C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput\"",
+      "Annotation": "Il2Cpp C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.22f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"C:\\Users\\maxim\\Documents\\GitHub\\Mobil-spil\\Tech Tapper\\Library\\Il2cppBuildCache\\Android\\armeabi-v7a\\Native\\armeabi-v7a\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\maxim\\Documents\\GitHub\\Mobil-spil\\Tech Tapper\\Assets\\..\\Library\\il2cpp_android_armeabi-v7a/il2cpp_cache\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --additional-cpp=\"C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/additionalCppFiles/UnityAdsInitializationListener.h\" --additional-cpp=\"C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/additionalCppFiles/UnityAdsLoadListener.h\" --additional-cpp=\"C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/additionalCppFiles/UnityAdsShowListener.h\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=\"C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed\" --generatedcppdir=\"C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput\" --stats-output-dir=\"C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppStats\"",
       "Inputs": [
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/Unity.2D.IK.Runtime.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
-        "C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
-        "C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/baselib.a",
-        "C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/libunityruntime.a",
-        "\"C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/additionalCppFiles/UnityAdsInitializationListener.h",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/additionalCppFiles/UnityAdsLoadListener.h",
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/additionalCppFiles/UnityAdsShowListener.h",
+        "C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
+        "C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/baselib.a",
+        "C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/libunityruntime.a",
+        "\"C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [
-        "C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
+        "C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -67,13 +69,13 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
     },
     {
-      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
     },
     {
-      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a"
+      "File": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a"
     },
     {
       "File": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
@@ -93,7 +95,7 @@
       "Path": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
     },
     {
-      "Path": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a",
+      "Path": "../../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a",
       "Recurse": 1
     }
   ],

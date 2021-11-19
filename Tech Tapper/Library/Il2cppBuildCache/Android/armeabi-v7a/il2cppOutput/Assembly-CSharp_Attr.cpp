@@ -273,14 +273,28 @@ static void AssemblyU2DCSharp_CustomAttributesCacheGenerator(CustomAttributesCac
 		DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550(tmp, 2LL, NULL);
 	}
 }
-static void SoundManager_t55BBC5661BB88EBEFF99C27CBD475CF774902D62_CustomAttributesCacheGenerator_soundOnIcon(CustomAttributesCache* cache)
+static void ClickSFXManager_t078F5C0BCCE10EF569147C7D5F563F613FF34596_CustomAttributesCacheGenerator_soundOnIcon(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
-static void SoundManager_t55BBC5661BB88EBEFF99C27CBD475CF774902D62_CustomAttributesCacheGenerator_soundOffIcon(CustomAttributesCache* cache)
+static void ClickSFXManager_t078F5C0BCCE10EF569147C7D5F563F613FF34596_CustomAttributesCacheGenerator_soundOffIcon(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void MusicHandler_t3E3FDFE141A7B2F96259B43ED2F5F89415138BDD_CustomAttributesCacheGenerator_musicOnIcon(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void MusicHandler_t3E3FDFE141A7B2F96259B43ED2F5F89415138BDD_CustomAttributesCacheGenerator_musicOffIcon(CustomAttributesCache* cache)
 {
 	{
 		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
@@ -288,10 +302,12 @@ static void SoundManager_t55BBC5661BB88EBEFF99C27CBD475CF774902D62_CustomAttribu
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[3] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[5] = 
 {
-	SoundManager_t55BBC5661BB88EBEFF99C27CBD475CF774902D62_CustomAttributesCacheGenerator_soundOnIcon,
-	SoundManager_t55BBC5661BB88EBEFF99C27CBD475CF774902D62_CustomAttributesCacheGenerator_soundOffIcon,
+	ClickSFXManager_t078F5C0BCCE10EF569147C7D5F563F613FF34596_CustomAttributesCacheGenerator_soundOnIcon,
+	ClickSFXManager_t078F5C0BCCE10EF569147C7D5F563F613FF34596_CustomAttributesCacheGenerator_soundOffIcon,
+	MusicHandler_t3E3FDFE141A7B2F96259B43ED2F5F89415138BDD_CustomAttributesCacheGenerator_musicOnIcon,
+	MusicHandler_t3E3FDFE141A7B2F96259B43ED2F5F89415138BDD_CustomAttributesCacheGenerator_musicOffIcon,
 	AssemblyU2DCSharp_CustomAttributesCacheGenerator,
 };
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m8562196F90F3EBCEC23B5708EE0332842883C490_inline (RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80 * __this, bool ___value0, const RuntimeMethod* method)
