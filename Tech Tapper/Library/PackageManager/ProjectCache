@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637729128761093665
-    m_Hash: 3518822677
+      ticks: 637729245518820943
+    m_Hash: 1611488256
   m_LockFileStatus:
     m_FilePath: C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637729128992657014
-    m_Hash: 4091857876
+      ticks: 637729245518950971
+    m_Hash: 4087093557
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -422,12 +422,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.2d.spriteshape@5.1.5
+    - packageId: com.unity.2d.spriteshape@5.1.6
       testable: 0
       isDirectDependency: 1
-      version: 5.1.5
+      version: 5.1.6
       source: 1
-      resolvedPath: C:\Users\maxim\Documents\GitHub\Mobil-spil\Tech Tapper\Library\PackageCache\com.unity.2d.spriteshape@5.1.5
+      resolvedPath: C:\Users\maxim\Documents\GitHub\Mobil-spil\Tech Tapper\Library\PackageCache\com.unity.2d.spriteshape@5.1.6
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -560,13 +560,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637684997050000000
+      datePublishedTicks: 637726547470000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: f2df77302616ee97ac0bda980859324394e44df3
+        revision: ef91f338b560d2963aabc2305104295701c5fecd
         path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
@@ -962,7 +962,7 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.30
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -990,12 +990,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.11
+    - packageId: com.unity.ide.visualstudio@2.0.12
       testable: 0
       isDirectDependency: 1
-      version: 2.0.11
+      version: 2.0.12
       source: 1
-      resolvedPath: C:\Users\maxim\Documents\GitHub\Mobil-spil\Tech Tapper\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+      resolvedPath: C:\Users\maxim\Documents\GitHub\Mobil-spil\Tech Tapper\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1051,7 +1051,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.30
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -1071,13 +1071,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637613656180000000
+      datePublishedTicks: 637720564750000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+        revision: 8d436ff053b9c59677b5e9799208143553cd02d9
         path: 
     - packageId: com.unity.ide.vscode@1.2.4
       testable: 0
@@ -1150,12 +1150,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
         path: 
-    - packageId: com.unity.test-framework@1.1.29
+    - packageId: com.unity.test-framework@1.1.30
       testable: 0
       isDirectDependency: 1
-      version: 1.1.29
+      version: 1.1.30
       source: 1
-      resolvedPath: C:\Users\maxim\Documents\GitHub\Mobil-spil\Tech Tapper\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: C:\Users\maxim\Documents\GitHub\Mobil-spil\Tech Tapper\Library\PackageCache\com.unity.test-framework@1.1.30
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1235,13 +1235,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637647922650000000
+      datePublishedTicks: 637702469360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: 4a3f541cb46e2f6875b3a938daba8c7113020873
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
@@ -3444,7 +3444,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: library
+      type: 
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3459,10 +3459,30 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
-        verified: 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3478,7 +3498,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3511,8 +3531,18 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
         compatible:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3533,7 +3563,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637604883250000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3577,6 +3607,7 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
+        - 1.2.5
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3593,7 +3624,8 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3662,6 +3694,7 @@ m_PackageAssets:
         - 6.0.0-pre.3
         - 6.0.0-pre.4
         - 6.0.0
+        - 6.0.1
         - 7.0.0-pre.3
         compatible:
         - 4.0.3
