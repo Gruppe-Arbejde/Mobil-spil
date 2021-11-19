@@ -6,8 +6,17 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
+    public static Manager instance { get; private set; }
+
     public Text ClicksTotalText;
-    float TotalClicks;
+    public float TotalClicks;
+
+    public void Start()
+    {
+        TotalClicks = SaveManager.instance.LoadedClicks;
+        ClicksTotalText.text = TotalClicks.ToString("0");
+    }
+
 
     // Default Auto click
     bool hasUpgrade;
@@ -25,6 +34,9 @@ public class Manager : MonoBehaviour
     public void AddClicks()
     {
         TotalClicks++;
+
+        SaveManager.instance.LoadedClicks = TotalClicks;
+        SaveManager.instance.Save();
 
         // Shortens big numbers
         if (TotalClicks >= 1000)
