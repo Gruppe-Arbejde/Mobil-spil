@@ -49,7 +49,22 @@ public class Manager : MonoBehaviour
     public void AddClicks()
     {
         TotalClicks++;
-        ClicksTotalText.text = TotalClicks.ToString("0");
+
+        // Shortens big numbers
+        if (TotalClicks >= 1000)
+            ClicksTotalText.text = Math.Floor(TotalClicks / 1000).ToString() + "K";
+        else if (TotalClicks >= 1000000)
+            ClicksTotalText.text = Math.Floor(TotalClicks / 1000).ToString() + "M";
+        else if (TotalClicks >= 1000000000)
+            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000).ToString() + "B";
+        else if (TotalClicks >= 1000000000000)
+            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000).ToString() + "T";
+        else if (TotalClicks >= 1000000000000000)
+            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000000).ToString() + "Quadrillion";
+        else if (TotalClicks >= 1000000000000000000)
+            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000000000).ToString() + "Quintillion";
+        else
+            ClicksTotalText.text = TotalClicks.ToString("0");
     }
     //-------------------------------------------------------------------------------------------------------
 
