@@ -3049,7 +3049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a694794a66dd4ef4698b3d26e9ba9eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadedClicks: 0
+  LoadedClicks: 99950
 --- !u!4 &816748916
 Transform:
   m_ObjectHideFlags: 0
