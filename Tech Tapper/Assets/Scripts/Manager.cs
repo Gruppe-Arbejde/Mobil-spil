@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +14,6 @@ public class Manager : MonoBehaviour
         TotalClicks = SaveManager.instance.LoadedClicks;
         ClicksTotalText.text = TotalClicks.ToString("0");
     }
-
 
     // Default Auto click
     bool hasUpgrade;
@@ -89,11 +86,7 @@ public class Manager : MonoBehaviour
             //ClicksTotalText.text = TotalClicks.ToString("0");
         }
     }
-
-    //-------------------------------------------------------------------------------------------------------
-
-    // Auto Clickers
-
+    // Auto Clicker
     // Default Auto click
     public void AutoClickUpgrade()
     {
