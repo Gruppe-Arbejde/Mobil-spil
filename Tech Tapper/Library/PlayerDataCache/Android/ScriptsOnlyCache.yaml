@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - Manager
     - MusicHandler
     - PlaySoundEffect
+    - SaveManager
     - SettingsHandler
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -93,9 +94,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5014}
     - Class: 114
-      Script: {instanceID: 5638}
+      Script: {instanceID: 5310}
     - Class: 114
-      Script: {instanceID: 5862}
+      Script: {instanceID: 5640}
+    - Class: 114
+      Script: {instanceID: 5864}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -619,6 +622,12 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
+      Hash: 4801acb95ec665672267c70b76d85cb4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveManager
+  - hash:
+      serializedVersion: 2
       Hash: 28cfb4bd305dd11c6326cc3ee7c14138
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -655,7 +664,7 @@ ScriptsOnlyBuild:
     className: ClickSFXManager
   - hash:
       serializedVersion: 2
-      Hash: b74b7179c9496be9605f5e756e2d72e8
+      Hash: af8ea5feca7a08b1e5e1515bd496b0b1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Manager
@@ -698,4 +707,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/test.apk
+  playerPath: C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/test1.2.apk
