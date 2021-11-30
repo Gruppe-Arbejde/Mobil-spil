@@ -15,35 +15,41 @@ public class Manager : MonoBehaviour
     public int minimumClicksToUnlockUpgrade;
     //-------------------------------------------------------------------------------------------------------
 
-    // Keyboard Auto click
-    bool hasKeyboard;
-    public int keyboardClicksPerSecond;
+    // Table Auto click
+    bool hasTable;
+    public int TableClicksPerSecond;
     public int minimumClicksToUnlockKeyboad;
     //-------------------------------------------------------------------------------------------------------
 
 
-    // Mouse Auto click
-    bool hasMouse;
-    public int MouseClicksPerSecond;
-    public int minimumClicksToUnlockMouse;
+    // Chair Auto click
+    bool hasChair;
+    public int ChairClicksPerSecond;
+    public int minimumClicksToUnlockChair;
     //-------------------------------------------------------------------------------------------------------
 
-    // Monitor Auto click
-    bool hasMonitor;
-    public int MonitorClicksPerSecond;
-    public int minimumClicksToUnlockMonitor;
+    // Wall Auto click
+    bool hasWall;
+    public int WallClicksPerSecond;
+    public int minimumClicksToUnlockWall;
     //-------------------------------------------------------------------------------------------------------
 
-    // Serverrack Auto click
-    bool hasServerrack;
-    public int ServerrackClicksPerSecond;
-    public int minimumClicksToUnlockServerrack;
+    // Poster Auto click
+    bool hasPoster;
+    public int PosterClicksPerSecond;
+    public int minimumClicksToUnlockPoster;
     //-------------------------------------------------------------------------------------------------------
 
-    // XXXX Auto click
-    bool hasXXXX;
-    public int XXXXClicksPerSecond;
-    public int minimumClicksToUnlockXXXX;
+    // Floor Auto click
+    bool hasFloor;
+    public int FloorClicksPerSecond;
+    public int minimumClicksToUnlockFloor;
+    //-------------------------------------------------------------------------------------------------------
+
+    // Carpet Auto click
+    bool hasCarpet;
+    public int CarpetClicksPerSecond;
+    public int minimumClicksToUnlockCarpet;
     //-------------------------------------------------------------------------------------------------------
 
     // Default Click
@@ -80,57 +86,67 @@ public class Manager : MonoBehaviour
         }
     }
 
-    // Keyboard Auto Click
-    public void AutoKeyboardUpgrade()
+    // Table Auto Click
+    public void AutoTableUpgrade()
     {
-        if (!hasKeyboard && TotalClicks >= minimumClicksToUnlockKeyboad)
+        if (!hasTable && TotalClicks >= minimumClicksToUnlockKeyboad)
         {
             TotalClicks -= minimumClicksToUnlockKeyboad;
-            hasKeyboard = true;
+            hasTable = true;
         }
     }
 
-    // Mouse Auto Click
-    public void AutoMouseUpgrade()
+    // Chair Auto Click
+    public void AutoChairUpgrade()
     {
-        if (!hasMouse && TotalClicks >= minimumClicksToUnlockMouse)
+        if (!hasChair && TotalClicks >= minimumClicksToUnlockChair)
         {
-            TotalClicks -= minimumClicksToUnlockMouse;
-            hasMouse = true;
+            TotalClicks -= minimumClicksToUnlockChair;
+            hasChair = true;
         }
     }
 
-    // Monitor Auto Click
-    public void AutoMonitorUpgrade()
+    // Wall Auto Click
+    public void AutoWallUpgrade()
     {
-        if (!hasMonitor && TotalClicks >= minimumClicksToUnlockMonitor)
+        if (!hasWall && TotalClicks >= minimumClicksToUnlockWall)
         {
-            TotalClicks -= minimumClicksToUnlockMonitor;
-            hasMonitor = true;
+            TotalClicks -= minimumClicksToUnlockWall;
+            hasWall = true;
         }
     }
 
-    // Serverrack Auto Click
-    public void AutoServerrackUpgrade()
+    // Poster Auto Click
+    public void AutoPosterUpgrade()
     {
-        if (!hasServerrack && TotalClicks >= minimumClicksToUnlockServerrack)
+        if (!hasPoster && TotalClicks >= minimumClicksToUnlockPoster)
         {
-            TotalClicks -= minimumClicksToUnlockServerrack;
-            hasServerrack = true;
+            TotalClicks -= minimumClicksToUnlockPoster;
+            hasPoster = true;
         }
     }
 
-    // XXXX Auto Click
-    public void AutoXXXXUpgrade()
+    // Floor Auto Click
+    public void AutoFloorUpgrade()
     {
-        if (!hasXXXX && TotalClicks >= minimumClicksToUnlockXXXX)
+        if (!hasFloor && TotalClicks >= minimumClicksToUnlockFloor)
         {
-            TotalClicks -= minimumClicksToUnlockXXXX;
-            hasXXXX = true;
+            TotalClicks -= minimumClicksToUnlockFloor;
+            hasFloor = true;
         }
     }
 
-    
+    // Carpet Auto Click
+    public void AutoCarpetUpgrade()
+    {
+        if (!hasCarpet && TotalClicks >= minimumClicksToUnlockCarpet)
+        {
+            TotalClicks -= minimumClicksToUnlockCarpet;
+            hasCarpet = true;
+        }
+    }
+
+
     //-------------------------------------------------------------------------------------------------------
 
     // Update
@@ -142,37 +158,43 @@ public class Manager : MonoBehaviour
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
 
-        if (hasKeyboard)
+        if (hasTable)
         {
-            TotalClicks += keyboardClicksPerSecond * Time.deltaTime;
+            TotalClicks += TableClicksPerSecond * Time.deltaTime;
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
 
-        if (hasMouse)
+        if (hasChair)
         {
-            TotalClicks += MouseClicksPerSecond * Time.deltaTime;
+            TotalClicks += ChairClicksPerSecond * Time.deltaTime;
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
 
-        if (hasMonitor)
+        if (hasWall)
         {
-            TotalClicks += MonitorClicksPerSecond * Time.deltaTime;
+            TotalClicks += WallClicksPerSecond * Time.deltaTime;
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
 
-        if (hasServerrack)
+        if (hasPoster)
         {
-            TotalClicks += ServerrackClicksPerSecond * Time.deltaTime;
+            TotalClicks += PosterClicksPerSecond * Time.deltaTime;
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
 
-        if (hasXXXX)
+        if (hasFloor)
         {
-            TotalClicks += XXXXClicksPerSecond * Time.deltaTime;
+            TotalClicks += FloorClicksPerSecond * Time.deltaTime;
             ClicksTotalText.text = TotalClicks.ToString("0");
         }
 
-       
+        if (hasCarpet)
+        {
+            TotalClicks += CarpetClicksPerSecond * Time.deltaTime;
+            ClicksTotalText.text = TotalClicks.ToString("0");
+        }
+
+
 
     }
 
