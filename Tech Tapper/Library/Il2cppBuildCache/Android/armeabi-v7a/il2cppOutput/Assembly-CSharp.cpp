@@ -117,6 +117,8 @@ struct Sprite_t5B10B1178EC2E6F53D33FFD77557F31C08A51ED9;
 struct Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB;
 // System.String
 struct String_t;
+// TOSButton
+struct TOSButton_tC77AF213052E7BBFDDE4F3E20A3ED28B61EDE0E7;
 // UnityEngine.UI.Text
 struct Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1;
 // UnityEngine.TextGenerator
@@ -149,6 +151,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4B554A5B1D53E7B1F84D9AD99BFB887AA244DEA4
 IL2CPP_EXTERN_C String_t* _stringLiteral6FFB98993BFC2147A8EE007BB367117596C01797;
 IL2CPP_EXTERN_C String_t* _stringLiteral731DD51708CCED19805AC8CF4DBA4E697582BDA4;
 IL2CPP_EXTERN_C String_t* _stringLiteralA77AA9AAD7F0C5648477D4BB8504C425D5BE314D;
+IL2CPP_EXTERN_C String_t* _stringLiteralB0705BE8A035A74401DE907E483EBD3C8822B042;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC438D9C7A759C6049C2794AB261B42DD7202B14;
 IL2CPP_EXTERN_C String_t* _stringLiteralF9356F98FD162FB2D71071AEC754B4B931D08356;
 IL2CPP_EXTERN_C String_t* _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024;
@@ -1730,6 +1733,15 @@ public:
 };
 
 
+// TOSButton
+struct TOSButton_tC77AF213052E7BBFDDE4F3E20A3ED28B61EDE0E7  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.EventSystems.UIBehaviour
 struct UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -2502,6 +2514,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t6342275F1C1E26F5EEB5AD510933C95B7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerData_Storage__ctor_m5E6D2C3393B97B485FEB718CEB4AED2A6EEE8D26 (PlayerData_Storage_t8F8AE8B5AED9E2AAD3EEAAC9429AF7F19D859D21 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.Serialization.Formatters.Binary.BinaryFormatter::Serialize(System.IO.Stream,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryFormatter_Serialize_m780327356D3B5B1B734338AB398B32E65AD6CB5B (BinaryFormatter_tAA0465FE94B272FAC7C99F6AD38120E9319C5F55 * __this, Stream_t5DC87DD578C2C5298D98E7802E92DEABB66E2ECB * ___serializationStream0, RuntimeObject * ___graph1, const RuntimeMethod* method);
+// System.Void UnityEngine.Application::OpenURL(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E (String_t* ___url0, const RuntimeMethod* method);
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -3918,6 +3932,38 @@ IL_0032:
 }
 // System.Void SettingsHandler::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsHandler__ctor_m07E9A02B759F7ADC8C7719508E05F3FB5C578B9C (SettingsHandler_t77CF05587300115A94C7C10D741D615B1FC918C8 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void TOSButton::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TOSButton_Start_m3D99C02E15E8F68101DA39667F82EB994BB286F7 (TOSButton_tC77AF213052E7BBFDDE4F3E20A3ED28B61EDE0E7 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0705BE8A035A74401DE907E483EBD3C8822B042);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// Application.OpenURL("https://smellyb3lly.github.io/");
+		Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E(_stringLiteralB0705BE8A035A74401DE907E483EBD3C8822B042, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void TOSButton::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TOSButton__ctor_m4F0083DE968B3C8A60AF630E76F4408CEBF14B94 (TOSButton_tC77AF213052E7BBFDDE4F3E20A3ED28B61EDE0E7 * __this, const RuntimeMethod* method)
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);

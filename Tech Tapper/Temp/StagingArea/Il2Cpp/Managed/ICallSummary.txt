@@ -162,6 +162,7 @@ UnityEngine.Animator::SetTriggerString
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isPlaying
 UnityEngine.Application::get_persistentDataPath
+UnityEngine.Application::OpenURL
 UnityEngine.Application::get_platform
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput

@@ -86,7 +86,11 @@ extern void PlayerData_Storage__ctor_m5E6D2C3393B97B485FEB718CEB4AED2A6EEE8D26 (
 extern void SettingsHandler_whenSettingsButtonClicked_mCFEA47644977918DE8CEB4CD609DD237DE22DEF0 (void);
 // 0x00000025 System.Void SettingsHandler::.ctor()
 extern void SettingsHandler__ctor_m07E9A02B759F7ADC8C7719508E05F3FB5C578B9C (void);
-static Il2CppMethodPointer s_methodPointers[37] = 
+// 0x00000026 System.Void TOSButton::Start()
+extern void TOSButton_Start_m3D99C02E15E8F68101DA39667F82EB994BB286F7 (void);
+// 0x00000027 System.Void TOSButton::.ctor()
+extern void TOSButton__ctor_m4F0083DE968B3C8A60AF630E76F4408CEBF14B94 (void);
+static Il2CppMethodPointer s_methodPointers[39] = 
 {
 	BackgroundMusic_Awake_m31BF75D5481F04E7E470C1FEE1E0DBB132541E4C,
 	BackgroundMusic__ctor_mFAF73BB5306195FC55C0A395C6FA4102359391FD,
@@ -125,8 +129,10 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	PlayerData_Storage__ctor_m5E6D2C3393B97B485FEB718CEB4AED2A6EEE8D26,
 	SettingsHandler_whenSettingsButtonClicked_mCFEA47644977918DE8CEB4CD609DD237DE22DEF0,
 	SettingsHandler__ctor_m07E9A02B759F7ADC8C7719508E05F3FB5C578B9C,
+	TOSButton_Start_m3D99C02E15E8F68101DA39667F82EB994BB286F7,
+	TOSButton__ctor_m4F0083DE968B3C8A60AF630E76F4408CEBF14B94,
 };
-static const int32_t s_InvokerIndices[37] = 
+static const int32_t s_InvokerIndices[39] = 
 {
 	1101,
 	1101,
@@ -158,6 +164,8 @@ static const int32_t s_InvokerIndices[37] =
 	1101,
 	1859,
 	1837,
+	1101,
+	1101,
 	1101,
 	1101,
 	1101,
@@ -171,7 +179,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	37,
+	39,
 	s_methodPointers,
 	0,
 	NULL,
