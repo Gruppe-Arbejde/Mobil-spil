@@ -60,6 +60,9 @@
     <Compile Include="Assets\Scripts\PlaySoundEffect.cs" />
     <Compile Include="Assets\Scripts\ClickSFXManager.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
+    <Compile Include="Assets\Scripts\ClickUpgrades.cs" />
+    <Compile Include="Assets\Scripts\UpgradeManager.cs" />
+    <Compile Include="Assets\Scripts\UpgradeData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -7,7 +7,8 @@ using System;
 public class Manager : MonoBehaviour
 {
     public Text ClicksTotalText;
-    float TotalClicks;
+    public double TotalClicks;
+    public double valuta;
 
     // Default Auto click
     bool hasUpgrade;
@@ -46,26 +47,71 @@ public class Manager : MonoBehaviour
     public int minimumClicksToUnlockXXXX;
     //-------------------------------------------------------------------------------------------------------
 
-    // Default Click
+    public double ClickPower()
+    {
+        UpgradeData Data = new UpgradeData();
+        return 1 + Data.clickUpgradeLevel;
+    }
+
+    // Add Click
     public void AddClicks()
     {
-        TotalClicks++;
+        TotalClicks+= ClickPower();
+        valuta = System.Convert.ToDouble(ClicksTotalText);
+
+        //SaveManager.instance.LoadedClicks = TotalClicks;
+        //SaveManager.instance.Save();
 
         // Shortens big numbers
         if (TotalClicks >= 1000)
-            ClicksTotalText.text = Math.Floor(TotalClicks / 1000).ToString() + "K";
+        {
+            decimal resKilo = 0;
+            resKilo = Convert.ToDecimal(TotalClicks / 1000);
+            ClicksTotalText.text = Convert.ToString($"{resKilo:n2} K");
+            //ClicksTotalText.text = Convert.ToDecimal(Math.Floor(TotalClicks / 1000)).ToString() + " K";
+        }
         else if (TotalClicks >= 1000000)
-            ClicksTotalText.text = Math.Floor(TotalClicks / 1000).ToString() + "M";
+        {
+            decimal resMillion = 0;
+            resMillion = Convert.ToDecimal(TotalClicks / 1000000);
+            ClicksTotalText.text = Convert.ToString($"{resMillion:n2} M");
+            //ClicksTotalText.text = Math.Floor(TotalClicks / 1000000).ToString() + " M";
+        }
         else if (TotalClicks >= 1000000000)
-            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000).ToString() + "B";
+        {
+            decimal resBillion = 0;
+            resBillion = Convert.ToDecimal(TotalClicks / 1000000000);
+            ClicksTotalText.text = Convert.ToString($"{resBillion:n2} B");
+            //ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000).ToString() + " B";
+        }
         else if (TotalClicks >= 1000000000000)
-            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000).ToString() + "T";
+        {
+            decimal resTrillion = 0;
+            resTrillion = Convert.ToDecimal(TotalClicks / 1000000000000);
+            ClicksTotalText.text = Convert.ToString($"{resTrillion:n1} T");
+            //ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000).ToString() + " T";
+        }
         else if (TotalClicks >= 1000000000000000)
-            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000000).ToString() + "Quadrillion";
+        {
+            decimal resQuad = 0;
+            resQuad = Convert.ToDecimal(TotalClicks / 1000000000000000);
+            ClicksTotalText.text = Convert.ToString($"{resQuad} Quadrillion");
+            //ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000000).ToString() + " Quadrillion";
+        }
         else if (TotalClicks >= 1000000000000000000)
-            ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000000000).ToString() + "Quintillion";
+        {
+            decimal resQuin = 0;
+            resQuin = Convert.ToDecimal(TotalClicks / 1000000000000000000);
+            ClicksTotalText.text = Convert.ToString($"{resQuin} Quintillion");
+            //ClicksTotalText.text = Math.Floor(TotalClicks / 1000000000000000000).ToString() + " Quintillion";
+        }
         else
-            ClicksTotalText.text = TotalClicks.ToString("0");
+        {
+            decimal underKilo = 0;
+            underKilo = Convert.ToDecimal(TotalClicks / 1);
+            ClicksTotalText.text = Convert.ToString($"{underKilo}");
+            //ClicksTotalText.text = TotalClicks.ToString("0");
+        }
     }
 
     // Auto Clickers
