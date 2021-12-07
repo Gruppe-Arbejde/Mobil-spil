@@ -9,6 +9,16 @@ public class Manager : MonoBehaviour
     public Text ClicksTotalText;
     public double TotalClicks;
     public double valuta;
+    public static int multiplier;
+    public static int clicksU;
+
+    private void Start()
+    {
+        multiplier = 1;
+        clicksU = 0;
+    
+
+    }
 
     // Default Auto click
     bool hasUpgrade;
@@ -56,11 +66,14 @@ public class Manager : MonoBehaviour
     // Add Click
     public void AddClicks()
     {
-        TotalClicks+= ClickPower();
+
+        TotalClicks = clicksU;
         valuta = System.Convert.ToDouble(ClicksTotalText);
 
         //SaveManager.instance.LoadedClicks = TotalClicks;
         //SaveManager.instance.Save();
+
+        ClicksTotalText.text = System.Convert.ToString(clicksU);
 
         // Shortens big numbers
         if (TotalClicks >= 1000)
@@ -182,6 +195,8 @@ public class Manager : MonoBehaviour
     // Update
     private void Update()
     {
+        //ClicksTotalText.text = System.Convert.ToString(clicksU);
+
         if (hasUpgrade)
         {
             TotalClicks += autoClicksPerSecond * Time.deltaTime;

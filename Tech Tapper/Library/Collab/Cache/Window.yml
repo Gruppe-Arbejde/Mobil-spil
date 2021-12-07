@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
