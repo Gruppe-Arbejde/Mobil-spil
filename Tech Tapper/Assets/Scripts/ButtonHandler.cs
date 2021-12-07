@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtonHandler : MonoBehaviour
@@ -12,7 +10,6 @@ public class ButtonHandler : MonoBehaviour
     public void whenMainButtonClicked()
     {
         if (Main.activeInHierarchy == false)
-
         {
             Hardware.SetActive(false);
             Main.SetActive(true);
