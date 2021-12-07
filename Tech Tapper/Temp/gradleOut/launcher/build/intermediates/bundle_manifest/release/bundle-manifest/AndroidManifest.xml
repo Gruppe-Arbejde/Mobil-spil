@@ -74,7 +74,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="00e32faf-7dec-49fa-815b-bd67bb3dea65" />
+            android:value="998f4465-96a0-4ef6-b057-7075b08760ae" />
 
         <activity
             android:name="com.unity3d.services.ads.adunit.AdUnitActivity"

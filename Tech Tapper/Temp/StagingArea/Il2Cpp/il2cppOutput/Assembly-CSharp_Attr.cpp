@@ -286,6 +286,34 @@ static void AssemblyU2DCSharp_CustomAttributesCacheGenerator(CustomAttributesCac
 		DebuggableAttribute__ctor_m7FF445C8435494A4847123A668D889E692E55550(tmp, 2LL, NULL);
 	}
 }
+static void AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__androidGameId(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__iOsGameId(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__testMode(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__enablePerPlacementMode(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 static void ClickSFXManager_t078F5C0BCCE10EF569147C7D5F563F613FF34596_CustomAttributesCacheGenerator_soundOnIcon(CustomAttributesCache* cache)
 {
 	{
@@ -335,6 +363,27 @@ static void MusicHandler_t3E3FDFE141A7B2F96259B43ED2F5F89415138BDD_CustomAttribu
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
+static void RewardedAdsButton_t7F0DE7A371F355CCCF5A48E699BA0BD8FF8FD812_CustomAttributesCacheGenerator__showAdButton(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void RewardedAdsButton_t7F0DE7A371F355CCCF5A48E699BA0BD8FF8FD812_CustomAttributesCacheGenerator__androidAdUnitId(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void RewardedAdsButton_t7F0DE7A371F355CCCF5A48E699BA0BD8FF8FD812_CustomAttributesCacheGenerator__iOsAdUnitId(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 static void SaveManager_tFCE7930FC081EEE88E12994B53512095F258CBCE_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField(CustomAttributesCache* cache)
 {
 	{
@@ -357,13 +406,20 @@ static void SaveManager_tFCE7930FC081EEE88E12994B53512095F258CBCE_CustomAttribut
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[11] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[18] = 
 {
+	AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__androidGameId,
+	AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__iOsGameId,
+	AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__testMode,
+	AdsInitializer_tF511ED86FDCCEC9433344D000B1EBDD5AAE3D4B6_CustomAttributesCacheGenerator__enablePerPlacementMode,
 	ClickSFXManager_t078F5C0BCCE10EF569147C7D5F563F613FF34596_CustomAttributesCacheGenerator_soundOnIcon,
 	ClickSFXManager_t078F5C0BCCE10EF569147C7D5F563F613FF34596_CustomAttributesCacheGenerator_soundOffIcon,
 	Manager_t4539029B29E4A85D7B60BA58B4BFF762FEFE4F5F_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
 	MusicHandler_t3E3FDFE141A7B2F96259B43ED2F5F89415138BDD_CustomAttributesCacheGenerator_musicOnIcon,
 	MusicHandler_t3E3FDFE141A7B2F96259B43ED2F5F89415138BDD_CustomAttributesCacheGenerator_musicOffIcon,
+	RewardedAdsButton_t7F0DE7A371F355CCCF5A48E699BA0BD8FF8FD812_CustomAttributesCacheGenerator__showAdButton,
+	RewardedAdsButton_t7F0DE7A371F355CCCF5A48E699BA0BD8FF8FD812_CustomAttributesCacheGenerator__androidAdUnitId,
+	RewardedAdsButton_t7F0DE7A371F355CCCF5A48E699BA0BD8FF8FD812_CustomAttributesCacheGenerator__iOsAdUnitId,
 	SaveManager_tFCE7930FC081EEE88E12994B53512095F258CBCE_CustomAttributesCacheGenerator_U3CinstanceU3Ek__BackingField,
 	Manager_t4539029B29E4A85D7B60BA58B4BFF762FEFE4F5F_CustomAttributesCacheGenerator_Manager_get_instance_m16C2387DFC1CF5D61C4A5B613DFEC70E6F4DB3EC,
 	Manager_t4539029B29E4A85D7B60BA58B4BFF762FEFE4F5F_CustomAttributesCacheGenerator_Manager_set_instance_mC2CDF24B808823D038D73D770E5A5FB4CAB13340,

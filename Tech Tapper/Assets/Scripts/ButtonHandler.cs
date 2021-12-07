@@ -11,10 +11,10 @@ public class ButtonHandler : MonoBehaviour
 
     public void whenMainButtonClicked()
     {
-        if (Main.activeInHierarchy == false )
+        if (Main.activeInHierarchy == false)
 
         {
-           Hardware.SetActive(false);
+            Hardware.SetActive(false);
             Main.SetActive(true);
             Settings.SetActive(false);
             Buildings.SetActive(false);
@@ -47,6 +47,23 @@ public class ButtonHandler : MonoBehaviour
             Settings.SetActive(false);
             //Main.SetActive(false);
             Hardware.SetActive(true);
+        }
+    }
+    public void whenCloseButtonClicked()
+    {
+        if (Main.activeInHierarchy == false)
+
+        {
+            Hardware.SetActive(false);
+            Main.SetActive(true);
+            Settings.SetActive(false);
+            Buildings.SetActive(false);
+        }
+        else
+        {
+            Settings.SetActive(false);
+            Hardware.SetActive(false);
+            Buildings.SetActive(false);
         }
     }
 }
