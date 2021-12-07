@@ -433,7 +433,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyboard: 0
-  clickUpgradeLevel: 0
+  clickUpgradeLevelKeyboard: 0
+  clickUpgradeBaseCostKeyboard: 10
+  clickUpgradeCostMultKeyboard: 1.5
+  mouse: 0
+  clickUpgradeLevelMouse: 0
+  clickUpgradeBaseCostMouse: 10
+  clickUpgradeCostMultMouse: 1.5
+  monitor: 0
+  clickUpgradeLevelMonitor: 0
+  clickUpgradeBaseCostMonitor: 10
+  clickUpgradeCostMultMonitor: 1.5
+  server: 0
+  clickUpgradeLevelServer: 0
+  clickUpgradeBaseCostServer: 10
+  clickUpgradeCostMultServer: 1.5
 --- !u!224 &74206614
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4020,10 +4034,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7577fd6e80f85d448aa34aeba25fe26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelText: {fileID: 0}
-  CostText: {fileID: 0}
-  CostError: {fileID: 0}
-  ClicksError: {fileID: 0}
+  LevelTextKeyboard: {fileID: 2048061534}
+  CostTextKeyboard: {fileID: 519984619}
+  LevelTextMouse: {fileID: 1069605131}
+  CostTextMouse: {fileID: 1081960409}
+  LevelTextMonitor: {fileID: 884096370}
+  CostTextMonitor: {fileID: 361127732}
+  LevelTextServer: {fileID: 760709174}
+  CostTextServer: {fileID: 547380551}
 --- !u!224 &602342786
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4259,10 +4277,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7577fd6e80f85d448aa34aeba25fe26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelText: {fileID: 2048061534}
-  CostText: {fileID: 519984619}
-  CostError: {fileID: 184110179}
-  ClicksError: {fileID: 519708120}
+  LevelTextKeyboard: {fileID: 0}
+  CostTextKeyboard: {fileID: 0}
+  LevelTextMouse: {fileID: 0}
+  CostTextMouse: {fileID: 0}
+  LevelTextMonitor: {fileID: 0}
+  CostTextMonitor: {fileID: 0}
+  LevelTextServer: {fileID: 0}
+  CostTextServer: {fileID: 0}
 --- !u!1 &640174336
 GameObject:
   m_ObjectHideFlags: 0
@@ -5318,7 +5340,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 785792431}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1768468738}
+        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
+        m_MethodName: BuyUpgradeMonitor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &786456619
 GameObject:
   m_ObjectHideFlags: 0
@@ -6195,10 +6229,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7577fd6e80f85d448aa34aeba25fe26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelText: {fileID: 760709174}
-  CostText: {fileID: 547380551}
-  CostError: {fileID: 0}
-  ClicksError: {fileID: 0}
+  LevelTextKeyboard: {fileID: 0}
+  CostTextKeyboard: {fileID: 0}
+  LevelTextMouse: {fileID: 0}
+  CostTextMouse: {fileID: 0}
+  LevelTextMonitor: {fileID: 0}
+  CostTextMonitor: {fileID: 0}
+  LevelTextServer: {fileID: 0}
+  CostTextServer: {fileID: 0}
 --- !u!114 &857363458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8526,7 +8564,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1175880242}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1768468738}
+        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
+        m_MethodName: BuyUpgradeServer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1182530576
 GameObject:
   m_ObjectHideFlags: 0
@@ -10330,10 +10380,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7577fd6e80f85d448aa34aeba25fe26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelText: {fileID: 1069605131}
-  CostText: {fileID: 1081960409}
-  CostError: {fileID: 0}
-  ClicksError: {fileID: 0}
+  LevelTextKeyboard: {fileID: 0}
+  CostTextKeyboard: {fileID: 0}
+  LevelTextMouse: {fileID: 0}
+  CostTextMouse: {fileID: 0}
+  LevelTextMonitor: {fileID: 0}
+  CostTextMonitor: {fileID: 0}
+  LevelTextServer: {fileID: 0}
+  CostTextServer: {fileID: 0}
 --- !u!114 &1472797201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11352,8 +11406,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 508ab020fe2fd9e47bff90e205c30c0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickUpgradeBaseCost: 0
-  clickUpgradeCostMult: 0
   data: {fileID: 74206613}
   clickUpgrade: {fileID: 622155574}
   man: {fileID: 1475773078}
@@ -11832,7 +11884,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1810773439}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1768468738}
+        m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
+        m_MethodName: BuyUpgradeMouse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1814701820
 GameObject:
   m_ObjectHideFlags: 0
@@ -12063,7 +12127,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyboard: 0
-  clickUpgradeLevel: 0
+  clickUpgradeLevelKeyboard: 0
+  clickUpgradeBaseCostKeyboard: 10
+  clickUpgradeCostMultKeyboard: 1.5
+  mouse: 0
+  clickUpgradeLevelMouse: 0
+  clickUpgradeBaseCostMouse: 10
+  clickUpgradeCostMultMouse: 1.5
+  monitor: 0
+  clickUpgradeLevelMonitor: 0
+  clickUpgradeBaseCostMonitor: 10
+  clickUpgradeCostMultMonitor: 1.5
+  server: 0
+  clickUpgradeLevelServer: 0
+  clickUpgradeBaseCostServer: 10
+  clickUpgradeCostMultServer: 1.5
 --- !u!1 &1841154658
 GameObject:
   m_ObjectHideFlags: 0
@@ -12764,7 +12842,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1768468738}
         m_TargetAssemblyTypeName: UpgradeManager, Assembly-CSharp
-        m_MethodName: BuyUpgrade
+        m_MethodName: BuyUpgradeKeyboard
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12785,7 +12863,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!114 &1940838784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13848,10 +13926,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7577fd6e80f85d448aa34aeba25fe26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelText: {fileID: 884096370}
-  CostText: {fileID: 361127732}
-  CostError: {fileID: 0}
-  ClicksError: {fileID: 0}
+  LevelTextKeyboard: {fileID: 0}
+  CostTextKeyboard: {fileID: 0}
+  LevelTextMouse: {fileID: 0}
+  CostTextMouse: {fileID: 0}
+  LevelTextMonitor: {fileID: 0}
+  CostTextMonitor: {fileID: 0}
+  LevelTextServer: {fileID: 0}
+  CostTextServer: {fileID: 0}
 --- !u!114 &2086931046
 MonoBehaviour:
   m_ObjectHideFlags: 0

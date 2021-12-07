@@ -58,12 +58,6 @@ public class Manager : MonoBehaviour
     public int minimumClicksToUnlockXXXX;
     //-------------------------------------------------------------------------------------------------------
 
-    public double ClickPower()
-    {
-        UpgradeData Data = new UpgradeData();
-        return 1 + Data.clickUpgradeLevel;
-    }
-
     // Add Click
     public void AddClicks()
     {
