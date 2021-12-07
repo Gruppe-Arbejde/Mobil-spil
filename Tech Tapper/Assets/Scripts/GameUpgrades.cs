@@ -12,7 +12,7 @@ public class GameUpgrades : MonoBehaviour
     public void Increment()
     {
         Manager.clicksU += Manager.multiplier;
-        man.AddClicks();
+        //man.AddClicks();
     }
 
     public void Buy(int num)
@@ -39,6 +39,6 @@ public class GameUpgrades : MonoBehaviour
     private void Update()
     {
         ui.text = "" + Manager.clicksU;
-        man.ClicksTotalText.text = System.Convert.ToString(Manager.clicksU);
+        //man.ClicksTotalText.text = System.Convert.ToString(Manager.clicksU);
     }
 }
