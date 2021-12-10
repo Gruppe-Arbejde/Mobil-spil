@@ -111,7 +111,7 @@
 62-->C:\Users\Maximus Janning Juul\Documents\GitHub\Mobil-spil\Tech Tapper\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:5-101
 63            android:name="unity.build-id"
 63-->C:\Users\Maximus Janning Juul\Documents\GitHub\Mobil-spil\Tech Tapper\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:16-45
-64            android:value="b38b662b-2a13-429b-80c4-b17e4304b70f" />
+64            android:value="9a300832-2517-410c-97fb-0e73a7a7bd5a" />
 64-->C:\Users\Maximus Janning Juul\Documents\GitHub\Mobil-spil\Tech Tapper\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:46-98
 65    </application>
 66

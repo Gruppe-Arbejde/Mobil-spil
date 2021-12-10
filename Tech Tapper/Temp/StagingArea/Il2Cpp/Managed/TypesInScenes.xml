@@ -38,13 +38,18 @@
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AdsInitializer" preserve="nothing"/>
 		<type fullname="ButtonHandler" preserve="nothing"/>
+		<type fullname="CanvasHelper" preserve="nothing"/>
 		<type fullname="ClickSFXManager" preserve="nothing"/>
 		<type fullname="ClickUpgrades" preserve="nothing"/>
 		<type fullname="GameUpgrades" preserve="nothing"/>
 		<type fullname="Manager" preserve="nothing"/>
 		<type fullname="MusicHandler" preserve="nothing"/>
 		<type fullname="PlaySoundEffect" preserve="nothing"/>
+		<type fullname="PrivacyPolicy" preserve="nothing"/>
+		<type fullname="RewardedAdsButton" preserve="nothing"/>
+		<type fullname="SaveManager" preserve="nothing"/>
 		<type fullname="SettingsHandler" preserve="nothing"/>
 		<type fullname="UpgradeData" preserve="nothing"/>
 		<type fullname="UpgradeManager" preserve="nothing"/>

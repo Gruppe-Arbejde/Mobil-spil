@@ -1,13 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AdsInitializer
     - ButtonHandler
+    - CanvasHelper
     - ClickSFXManager
     - ClickUpgrades
     - GameUpgrades
     - Manager
     - MusicHandler
     - PlaySoundEffect
+    - PrivacyPolicy
+    - RewardedAdsButton
+    - SaveManager
     - SettingsHandler
     - UpgradeData
     - UpgradeManager
@@ -92,6 +97,12 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2402}
     - Class: 114
+      Script: {instanceID: 2434}
+    - Class: 114
+      Script: {instanceID: 2610}
+    - Class: 114
+      Script: {instanceID: 2702}
+    - Class: 114
       Script: {instanceID: 2706}
     - Class: 114
       Script: {instanceID: 2876}
@@ -130,11 +141,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5218}
     - Class: 114
+      Script: {instanceID: 5374}
+    - Class: 114
       Script: {instanceID: 5646}
     - Class: 114
       Script: {instanceID: 5704}
     - Class: 114
       Script: {instanceID: 5928}
+    - Class: 114
+      Script: {instanceID: 31482}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

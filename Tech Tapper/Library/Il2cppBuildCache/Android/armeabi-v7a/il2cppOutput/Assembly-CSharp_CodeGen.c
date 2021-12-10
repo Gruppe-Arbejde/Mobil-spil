@@ -12,48 +12,48 @@
 
 
 
-// 0x00000001 System.Void CanvasHelper::Awake()
-extern void CanvasHelper_Awake_m43328754EFE8CFFAB8D8C50098AD8B02437CB6FC (void);
-// 0x00000002 System.Void CanvasHelper::Update()
-extern void CanvasHelper_Update_mCED1780C981D67EA1BC93AD8803A8BAF344EF4C9 (void);
-// 0x00000003 System.Void CanvasHelper::ApplySafeArea()
-extern void CanvasHelper_ApplySafeArea_m929211027CE6E83B9DDC2D3B4D7F8E9A049CF5F0 (void);
-// 0x00000004 System.Void CanvasHelper::OnDestroy()
-extern void CanvasHelper_OnDestroy_m9206E6DF18F3D2AFF5376CEA28B8073C2F6BB381 (void);
-// 0x00000005 System.Void CanvasHelper::OrientationChanged()
-extern void CanvasHelper_OrientationChanged_m0788B6D621EE02757B49ACD7B2A313D06C6D09F3 (void);
-// 0x00000006 System.Void CanvasHelper::ResolutionChanged()
-extern void CanvasHelper_ResolutionChanged_m9A87B1847B0D5B97C4BB074D9487506420B2DE89 (void);
-// 0x00000007 System.Void CanvasHelper::SafeAreaChanged()
-extern void CanvasHelper_SafeAreaChanged_m137BCDBDA8E285F79681C8CE083A6BFAAFB45CCD (void);
-// 0x00000008 System.Void CanvasHelper::.ctor()
-extern void CanvasHelper__ctor_m93BF42EC8ABF09BCE807A2A9185F40D3D3E409E4 (void);
-// 0x00000009 System.Void CanvasHelper::.cctor()
-extern void CanvasHelper__cctor_mF7BF57DEC5B0AB03156E3D389139C7EDA5FE576B (void);
-// 0x0000000A System.Void AdsInitializer::Awake()
+// 0x00000001 System.Void AdsInitializer::Awake()
 extern void AdsInitializer_Awake_mEDFB09B260B6EC6003921E5A855E28255BA9CC32 (void);
-// 0x0000000B System.Void AdsInitializer::InitializeAds()
+// 0x00000002 System.Void AdsInitializer::InitializeAds()
 extern void AdsInitializer_InitializeAds_m4D99F1ACAC5DF95EFA9A57E12CDCF5988D139E1F (void);
-// 0x0000000C System.Void AdsInitializer::OnInitializationComplete()
+// 0x00000003 System.Void AdsInitializer::OnInitializationComplete()
 extern void AdsInitializer_OnInitializationComplete_m420E11EA3E1A36DC61377FCF08947C67CE7599F4 (void);
-// 0x0000000D System.Void AdsInitializer::OnInitializationFailed(UnityEngine.Advertisements.UnityAdsInitializationError,System.String)
+// 0x00000004 System.Void AdsInitializer::OnInitializationFailed(UnityEngine.Advertisements.UnityAdsInitializationError,System.String)
 extern void AdsInitializer_OnInitializationFailed_mD8BD3D5314F6ABFF420E7F3EB111EA5B0FBD203C (void);
-// 0x0000000E System.Void AdsInitializer::.ctor()
+// 0x00000005 System.Void AdsInitializer::.ctor()
 extern void AdsInitializer__ctor_m8C368A791C63B842C8DF4063B72AA6907982E1DF (void);
-// 0x0000000F System.Void BackgroundMusic::Awake()
+// 0x00000006 System.Void BackgroundMusic::Awake()
 extern void BackgroundMusic_Awake_m31BF75D5481F04E7E470C1FEE1E0DBB132541E4C (void);
-// 0x00000010 System.Void BackgroundMusic::.ctor()
+// 0x00000007 System.Void BackgroundMusic::.ctor()
 extern void BackgroundMusic__ctor_mFAF73BB5306195FC55C0A395C6FA4102359391FD (void);
-// 0x00000011 System.Void ButtonHandler::whenMainButtonClicked()
+// 0x00000008 System.Void ButtonHandler::whenMainButtonClicked()
 extern void ButtonHandler_whenMainButtonClicked_mCEB8CF624096882D25434DA2439B5D005BF5BD1A (void);
-// 0x00000012 System.Void ButtonHandler::whenBuildingsButtonClicked()
+// 0x00000009 System.Void ButtonHandler::whenBuildingsButtonClicked()
 extern void ButtonHandler_whenBuildingsButtonClicked_mB755662670A321B68ACD75723B8BF3E57FFEBDCC (void);
-// 0x00000013 System.Void ButtonHandler::whenShopButtonClicked()
+// 0x0000000A System.Void ButtonHandler::whenShopButtonClicked()
 extern void ButtonHandler_whenShopButtonClicked_m7B4C397C7EE74EFBB6BE45C8C2F3F3557BF766DB (void);
-// 0x00000014 System.Void ButtonHandler::whenCloseButtonClicked()
+// 0x0000000B System.Void ButtonHandler::whenCloseButtonClicked()
 extern void ButtonHandler_whenCloseButtonClicked_m0756F2C398B91177C8F36A522DA42D3ACBA88423 (void);
-// 0x00000015 System.Void ButtonHandler::.ctor()
+// 0x0000000C System.Void ButtonHandler::.ctor()
 extern void ButtonHandler__ctor_m82B40207AA23D43BF1E41E7ED89A94945391FBE7 (void);
+// 0x0000000D System.Void CanvasHelper::Awake()
+extern void CanvasHelper_Awake_m43328754EFE8CFFAB8D8C50098AD8B02437CB6FC (void);
+// 0x0000000E System.Void CanvasHelper::Update()
+extern void CanvasHelper_Update_mCED1780C981D67EA1BC93AD8803A8BAF344EF4C9 (void);
+// 0x0000000F System.Void CanvasHelper::ApplySafeArea()
+extern void CanvasHelper_ApplySafeArea_m929211027CE6E83B9DDC2D3B4D7F8E9A049CF5F0 (void);
+// 0x00000010 System.Void CanvasHelper::OnDestroy()
+extern void CanvasHelper_OnDestroy_m9206E6DF18F3D2AFF5376CEA28B8073C2F6BB381 (void);
+// 0x00000011 System.Void CanvasHelper::OrientationChanged()
+extern void CanvasHelper_OrientationChanged_m0788B6D621EE02757B49ACD7B2A313D06C6D09F3 (void);
+// 0x00000012 System.Void CanvasHelper::ResolutionChanged()
+extern void CanvasHelper_ResolutionChanged_m9A87B1847B0D5B97C4BB074D9487506420B2DE89 (void);
+// 0x00000013 System.Void CanvasHelper::SafeAreaChanged()
+extern void CanvasHelper_SafeAreaChanged_m137BCDBDA8E285F79681C8CE083A6BFAAFB45CCD (void);
+// 0x00000014 System.Void CanvasHelper::.ctor()
+extern void CanvasHelper__ctor_m93BF42EC8ABF09BCE807A2A9185F40D3D3E409E4 (void);
+// 0x00000015 System.Void CanvasHelper::.cctor()
+extern void CanvasHelper__cctor_mF7BF57DEC5B0AB03156E3D389139C7EDA5FE576B (void);
 // 0x00000016 System.Void ClickSFXManager::Start()
 extern void ClickSFXManager_Start_mF2E46C00B74CD099EEF9DFE46808AE45D2C10363 (void);
 // 0x00000017 System.Void ClickSFXManager::OnButtonPress()
@@ -184,15 +184,6 @@ extern void UpgradeManager_BuyUpgradeServer_m09B46B4DB73F05BFEF9F2F098AE8C0BBAAC
 extern void UpgradeManager__ctor_m841AD564976656E7E262658BA4A0BFAB68F926B3 (void);
 static Il2CppMethodPointer s_methodPointers[85] = 
 {
-	CanvasHelper_Awake_m43328754EFE8CFFAB8D8C50098AD8B02437CB6FC,
-	CanvasHelper_Update_mCED1780C981D67EA1BC93AD8803A8BAF344EF4C9,
-	CanvasHelper_ApplySafeArea_m929211027CE6E83B9DDC2D3B4D7F8E9A049CF5F0,
-	CanvasHelper_OnDestroy_m9206E6DF18F3D2AFF5376CEA28B8073C2F6BB381,
-	CanvasHelper_OrientationChanged_m0788B6D621EE02757B49ACD7B2A313D06C6D09F3,
-	CanvasHelper_ResolutionChanged_m9A87B1847B0D5B97C4BB074D9487506420B2DE89,
-	CanvasHelper_SafeAreaChanged_m137BCDBDA8E285F79681C8CE083A6BFAAFB45CCD,
-	CanvasHelper__ctor_m93BF42EC8ABF09BCE807A2A9185F40D3D3E409E4,
-	CanvasHelper__cctor_mF7BF57DEC5B0AB03156E3D389139C7EDA5FE576B,
 	AdsInitializer_Awake_mEDFB09B260B6EC6003921E5A855E28255BA9CC32,
 	AdsInitializer_InitializeAds_m4D99F1ACAC5DF95EFA9A57E12CDCF5988D139E1F,
 	AdsInitializer_OnInitializationComplete_m420E11EA3E1A36DC61377FCF08947C67CE7599F4,
@@ -205,6 +196,15 @@ static Il2CppMethodPointer s_methodPointers[85] =
 	ButtonHandler_whenShopButtonClicked_m7B4C397C7EE74EFBB6BE45C8C2F3F3557BF766DB,
 	ButtonHandler_whenCloseButtonClicked_m0756F2C398B91177C8F36A522DA42D3ACBA88423,
 	ButtonHandler__ctor_m82B40207AA23D43BF1E41E7ED89A94945391FBE7,
+	CanvasHelper_Awake_m43328754EFE8CFFAB8D8C50098AD8B02437CB6FC,
+	CanvasHelper_Update_mCED1780C981D67EA1BC93AD8803A8BAF344EF4C9,
+	CanvasHelper_ApplySafeArea_m929211027CE6E83B9DDC2D3B4D7F8E9A049CF5F0,
+	CanvasHelper_OnDestroy_m9206E6DF18F3D2AFF5376CEA28B8073C2F6BB381,
+	CanvasHelper_OrientationChanged_m0788B6D621EE02757B49ACD7B2A313D06C6D09F3,
+	CanvasHelper_ResolutionChanged_m9A87B1847B0D5B97C4BB074D9487506420B2DE89,
+	CanvasHelper_SafeAreaChanged_m137BCDBDA8E285F79681C8CE083A6BFAAFB45CCD,
+	CanvasHelper__ctor_m93BF42EC8ABF09BCE807A2A9185F40D3D3E409E4,
+	CanvasHelper__cctor_mF7BF57DEC5B0AB03156E3D389139C7EDA5FE576B,
 	ClickSFXManager_Start_mF2E46C00B74CD099EEF9DFE46808AE45D2C10363,
 	ClickSFXManager_OnButtonPress_m127618DB146E5C18E9C3DD95B372049551617F24,
 	ClickSFXManager_UpdateButtonIcon_m31ADF232FACF8C566AF19E32DCEB285C952BAFE0,
@@ -275,15 +275,6 @@ static const int32_t s_InvokerIndices[85] =
 	1521,
 	1521,
 	1521,
-	1521,
-	2395,
-	2395,
-	2395,
-	1521,
-	2395,
-	1521,
-	1521,
-	1521,
 	717,
 	1521,
 	1521,
@@ -293,6 +284,15 @@ static const int32_t s_InvokerIndices[85] =
 	1521,
 	1521,
 	1521,
+	1521,
+	1521,
+	1521,
+	1521,
+	2395,
+	2395,
+	2395,
+	1521,
+	2395,
 	1521,
 	1521,
 	1521,
