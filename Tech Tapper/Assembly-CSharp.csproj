@@ -58,16 +58,17 @@
     <Compile Include="Assets\Scripts\AdsInitializer.cs" />
     <Compile Include="Assets\Scripts\RewardedAdsButton.cs" />
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\UpgradeData.cs" />
     <Compile Include="Assets\Scripts\MusicHandler.cs" />
+    <Compile Include="Assets\Scripts\UpgradeManager.cs" />
     <Compile Include="Assets\Scripts\SettingsHandler.cs" />
     <Compile Include="Assets\Scripts\PlaySoundEffect.cs" />
+    <Compile Include="Assets\Scripts\GameUpgrades.cs" />
+    <Compile Include="Assets\Scripts\ClickUpgrades.cs" />
     <Compile Include="Assets\Scripts\SaveManager.cs" />
     <Compile Include="Assets\Scripts\ClickSFXManager.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
-    <Compile Include="Assets\Scripts\ClickUpgrades.cs" />
-    <Compile Include="Assets\Scripts\UpgradeData.cs" />
-    <Compile Include="Assets\Scripts\GameUpgrades.cs" />
-    <Compile Include="Assets\Scripts\UpgradeManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
