@@ -100,6 +100,8 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelMouse)
         {
             case 25:
+                data.mouseV1.SetActive(false);
+                data.mouseV2.SetActive(true);
                 break;
             case 50:
                 break;
@@ -145,6 +147,8 @@ public class UpgradeManager : MonoBehaviour
         }
         switch (data.clickUpgradeLevelServer)
         {
+            case 1:
+                break;
             case 25:
                 break;
             case 50:
@@ -240,6 +244,8 @@ public class UpgradeManager : MonoBehaviour
         }
         switch (data.clickUpgradeLevelPoster)
         {
+            case 1:
+                break;
             case 25:
                 break;
             case 50:
@@ -286,6 +292,8 @@ public class UpgradeManager : MonoBehaviour
         }
         switch (data.clickUpgradeLevelCarpet)
         {
+            case 1:
+                break;
             case 25:
                 break;
             case 50:

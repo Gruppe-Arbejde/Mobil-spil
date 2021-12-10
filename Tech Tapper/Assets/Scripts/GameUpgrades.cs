@@ -10,7 +10,7 @@ public class GameUpgrades : MonoBehaviour
     public Manager man = new Manager();
     public TMP_Text ui;
     int x = 1;
-    public DateTime d1; //used for animation handling in PlayerAnimation.cs
+    //public DateTime d1; //used for animation handling in PlayerAnimation.cs
     public AudioSource tap1SFX;
     public AudioSource tap2SFX;
     public AudioSource tap3SFX;
@@ -30,19 +30,15 @@ public class GameUpgrades : MonoBehaviour
         {
             case 1:
                 tap1SFX.Play(0);
-                d1 = DateTime.Now;
                 break;
             case 2:
                 tap2SFX.Play(0);
-                d1 = DateTime.Now;
                 break;
             case 3:
                 tap3SFX.Play(0);
-                d1 = DateTime.Now;
                 break;
             case 4:
                 tap4SFX.Play(0);
-                d1 = DateTime.Now;
                 break;
             default:
                 break;

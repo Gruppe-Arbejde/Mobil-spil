@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 public class ClickUpgrades : MonoBehaviour
-{
+{   
     //Keyboard
     public TMP_Text LevelTextKeyboard;
     public TMP_Text CostTextKeyboard;
@@ -44,8 +44,4 @@ public class ClickUpgrades : MonoBehaviour
     //Carpet
     public TMP_Text LevelTextCarpet;
     public TMP_Text CostTextCarpet;
-
-    //public TMP_Text CostError;
-    //public TMP_Text ClicksError;
-
 }
