@@ -18,7 +18,7 @@ public class UpgradeManager : MonoBehaviour
         //clickUpgradeCostMult = 1.5;
         UpdateClickUpgradeUi();
     }
-    //compile
+    
     public void UpdateClickUpgradeUi()
     {
         //Keyboard UI
@@ -72,7 +72,7 @@ public class UpgradeManager : MonoBehaviour
             man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
         }
     }
-    public void BuyUpgradeMonitor()
+    public void BuyUpgradeMonitor() 
     {
         //clickUpgrade.CostError.text = System.Convert.ToString(Cost());
         //clickUpgrade.ClicksError.text = System.Convert.ToString(man.valuta);
