@@ -21,6 +21,30 @@ public class ClickUpgrades : MonoBehaviour
     public TMP_Text LevelTextServer;
     public TMP_Text CostTextServer;
 
+    //Table
+    public TMP_Text LevelTextTable;
+    public TMP_Text CostTextTable;
+
+    //Chair
+    public TMP_Text LevelTextChair;
+    public TMP_Text CostTextChair;
+
+    //Wall
+    public TMP_Text LevelTextWall;
+    public TMP_Text CostTextWall;
+
+    //Poster
+    public TMP_Text LevelTextPoster;
+    public TMP_Text CostTextPoster;
+
+    //Floor
+    public TMP_Text LevelTextFloor;
+    public TMP_Text CostTextFloor;
+
+    //Carpet
+    public TMP_Text LevelTextCarpet;
+    public TMP_Text CostTextCarpet;
+
     //public TMP_Text CostError;
     //public TMP_Text ClicksError;
 

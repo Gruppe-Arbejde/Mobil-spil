@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class UpgradeManager : MonoBehaviour
 {
-    //public double clickUpgradeBaseCost;
-    //public double clickUpgradeCostMult;
     public UpgradeData data = new UpgradeData();
     public ClickUpgrades clickUpgrade = new ClickUpgrades();
     public Manager man = new Manager();
@@ -14,11 +12,9 @@ public class UpgradeManager : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        //clickUpgradeBaseCost = 10;
-        //clickUpgradeCostMult = 1.5;
+
         UpdateClickUpgradeUi();
     }
-    
     public void UpdateClickUpgradeUi()
     {
         //Keyboard UI
@@ -36,17 +32,37 @@ public class UpgradeManager : MonoBehaviour
         //Server rack UI
         clickUpgrade.LevelTextServer.text = "Lvl: " + data.clickUpgradeLevelServer;
         clickUpgrade.CostTextServer.text = ($"{data.CostServer():n0}");
+
+        //Table UI
+        clickUpgrade.LevelTextTable.text = "Lvl: " + data.clickUpgradeLevelTable;
+        clickUpgrade.CostTextTable.text = ($"{data.CostTable():n0}");
+
+        //Chair UI
+        clickUpgrade.LevelTextChair.text = "Lvl: " + data.clickUpgradeLevelChair;
+        clickUpgrade.CostTextChair.text = ($"{data.CostChair():n0}");
+
+        //Wall UI
+        clickUpgrade.LevelTextWall.text = "Lvl: " + data.clickUpgradeLevelWall;
+        clickUpgrade.CostTextWall.text = ($"{data.CostWall():n0}");
+
+        //Poster UI
+        clickUpgrade.LevelTextPoster.text = "Lvl: " + data.clickUpgradeLevelPoster;
+        clickUpgrade.CostTextPoster.text = ($"{data.CostPoster():n0}");
+
+        //Floor UI
+        clickUpgrade.LevelTextFloor.text = "Lvl: " + data.clickUpgradeLevelFloor;
+        clickUpgrade.CostTextFloor.text = ($"{data.CostFloor():n0}");
+
+        //Carpet UI
+        clickUpgrade.LevelTextCarpet.text = "Lvl: " + data.clickUpgradeLevelCarpet;
+        clickUpgrade.CostTextCarpet.text = ($"{data.CostCarpet():n0}");
+
+
     }
 
-    //public double Cost()
-    //{
-    //    return clickUpgradeBaseCost * Math.Pow(clickUpgradeCostMult, data.clickUpgradeLevel);
-    //}
+    #region hardware buy functions
     public void BuyUpgradeKeyboard()
     {
-        //clickUpgrade.CostError.text = System.Convert.ToString(Cost());
-        //clickUpgrade.ClicksError.text = System.Convert.ToString(man.valuta);
-
         if (Manager.clicksU >= data.CostKeyboard())
         {
             //man.TotalClicks -= Cost();
@@ -56,12 +72,22 @@ public class UpgradeManager : MonoBehaviour
             UpdateClickUpgradeUi();
             man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
         }
+        switch (data.clickUpgradeLevelKeyboard)
+        {
+            case 25:
+                data.keyBoardV1.SetActive(false);
+                data.keyBoardV2.SetActive(true);
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
     }
     public void BuyUpgradeMouse()
     {
-        //clickUpgrade.CostError.text = System.Convert.ToString(Cost());
-        //clickUpgrade.ClicksError.text = System.Convert.ToString(man.valuta);
-
         if (Manager.clicksU >= data.CostMouse())
         {
             //man.TotalClicks -= Cost();
@@ -71,12 +97,20 @@ public class UpgradeManager : MonoBehaviour
             UpdateClickUpgradeUi();
             man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
         }
+        switch (data.clickUpgradeLevelMouse)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
     }
     public void BuyUpgradeMonitor() 
     {
-        //clickUpgrade.CostError.text = System.Convert.ToString(Cost());
-        //clickUpgrade.ClicksError.text = System.Convert.ToString(man.valuta);
-
         if (Manager.clicksU >= data.CostMonitor())
         {
             //man.TotalClicks -= Cost();
@@ -86,12 +120,20 @@ public class UpgradeManager : MonoBehaviour
             UpdateClickUpgradeUi();
             man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
         }
+        switch (data.clickUpgradeLevelMonitor)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
     }
     public void BuyUpgradeServer()
     {
-        //clickUpgrade.CostError.text = System.Convert.ToString(Cost());
-        //clickUpgrade.ClicksError.text = System.Convert.ToString(man.valuta);
-
         if (Manager.clicksU >= data.CostServer())
         {
             //man.TotalClicks -= Cost();
@@ -101,5 +143,159 @@ public class UpgradeManager : MonoBehaviour
             UpdateClickUpgradeUi();
             man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
         }
+        switch (data.clickUpgradeLevelServer)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
     }
+    #endregion
+
+    #region building buy functions
+    public void BuyUpgradeTable()
+    {
+        if (Manager.clicksU >= data.CostTable())
+        {
+            //man.TotalClicks -= Cost();
+            Manager.clicksU -= Convert.ToInt32(data.CostTable());
+            data.clickUpgradeLevelTable += 1;
+            Manager.multiplier += data.clickUpgradeLevelTable;
+            UpdateClickUpgradeUi();
+            man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
+        }
+        switch (data.clickUpgradeLevelTable)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
+    }
+    public void BuyUpgradeChair()
+    {
+        if (Manager.clicksU >= data.CostChair())
+        {
+            //man.TotalClicks -= Cost();
+            Manager.clicksU -= Convert.ToInt32(data.CostChair());
+            data.clickUpgradeLevelChair += 1;
+            Manager.multiplier += data.clickUpgradeLevelChair;
+            UpdateClickUpgradeUi();
+            man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
+        }
+        switch (data.clickUpgradeLevelChair)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
+    }
+    public void BuyUpgradeWall()
+    {
+        if (Manager.clicksU >= data.CostWall())
+        {
+            //man.TotalClicks -= Cost();
+            Manager.clicksU -= Convert.ToInt32(data.CostWall());
+            data.clickUpgradeLevelWall += 1;
+            Manager.multiplier += data.clickUpgradeLevelWall;
+            UpdateClickUpgradeUi();
+            man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
+        }
+        switch (data.clickUpgradeLevelWall)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
+    }
+    public void BuyUpgradePoster()
+    {
+        if (Manager.clicksU >= data.CostPoster())
+        {
+            //man.TotalClicks -= Cost();
+            Manager.clicksU -= Convert.ToInt32(data.CostPoster());
+            data.clickUpgradeLevelPoster += 1;
+            Manager.multiplier += data.clickUpgradeLevelPoster;
+            UpdateClickUpgradeUi();
+            man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
+        }
+        switch (data.clickUpgradeLevelPoster)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
+    }
+    public void BuyUpgradeFloor()
+    {
+        if (Manager.clicksU >= data.CostFloor())
+        {
+            //man.TotalClicks -= Cost();
+            Manager.clicksU -= Convert.ToInt32(data.CostFloor());
+            data.clickUpgradeLevelFloor += 1;
+            Manager.multiplier += data.clickUpgradeLevelFloor;
+            UpdateClickUpgradeUi();
+            man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
+        }
+        switch (data.clickUpgradeLevelFloor)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
+    }
+    public void BuyUpgradeCarpet()
+    {
+        if (Manager.clicksU >= data.CostCarpet())
+        {
+            //man.TotalClicks -= Cost();
+            Manager.clicksU -= Convert.ToInt32(data.CostCarpet());
+            data.clickUpgradeLevelCarpet += 1;
+            Manager.multiplier += data.clickUpgradeLevelCarpet;
+            UpdateClickUpgradeUi();
+            man.ClicksTotalText.text = Convert.ToString(Manager.clicksU);
+        }
+        switch (data.clickUpgradeLevelCarpet)
+        {
+            case 25:
+                break;
+            case 50:
+                break;
+            case 75:
+                break;
+            default:
+                break;
+        }
+    }
+
+    #endregion
 }
