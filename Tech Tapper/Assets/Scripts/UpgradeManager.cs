@@ -125,6 +125,8 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelMonitor)
         {
             case 25:
+                data.monitorV1.SetActive(false);
+                data.monitorV2.SetActive(true);
                 break;
             case 50:
                 break;
@@ -148,12 +150,19 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelServer)
         {
             case 1:
+                data.serverRackV1.SetActive(true);
                 break;
             case 25:
+                data.serverRackV1.SetActive(false);
+                data.serverRackV2.SetActive(true);
                 break;
             case 50:
+                data.serverRackV2.SetActive(false);
+                data.serverRackV3.SetActive(true);
                 break;
             case 75:
+                data.serverRackV3.SetActive(false);
+                data.serverRackV4.SetActive(true);
                 break;
             default:
                 break;
@@ -176,10 +185,16 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelTable)
         {
             case 25:
+                data.TableV1.SetActive(false);
+                data.TableV2.SetActive(true);
                 break;
             case 50:
+                data.TableV2.SetActive(false);
+                data.TableV3.SetActive(true);
                 break;
             case 75:
+                data.TableV3.SetActive(false);
+                data.TableV4.SetActive(true);
                 break;
             default:
                 break;
@@ -199,10 +214,16 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelChair)
         {
             case 25:
+                data.ChairV1.SetActive(false);
+                data.ChairV2.SetActive(true);
                 break;
             case 50:
+                data.ChairV2.SetActive(false);
+                data.ChairV3.SetActive(true);
                 break;
             case 75:
+                data.ChairV3.SetActive(false);
+                data.ChairV4.SetActive(true);
                 break;
             default:
                 break;
@@ -222,10 +243,16 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelWall)
         {
             case 25:
+                data.WallV1.SetActive(false);
+                data.WallV2.SetActive(true);
                 break;
             case 50:
+                data.WallV2.SetActive(false);
+                data.WallV3.SetActive(true);
                 break;
             case 75:
+                data.WallV3.SetActive(false);
+                data.WallV4.SetActive(true);
                 break;
             default:
                 break;
@@ -245,12 +272,19 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelPoster)
         {
             case 1:
+                data.PosterRackV1.SetActive(true);
                 break;
             case 25:
+                data.PosterRackV1.SetActive(false);
+                data.PosterRackV2.SetActive(true);
                 break;
             case 50:
+                data.PosterRackV2.SetActive(false);
+                data.PosterRackV3.SetActive(true);
                 break;
             case 75:
+                data.PosterRackV3.SetActive(false);
+                data.PosterRackV4.SetActive(true);
                 break;
             default:
                 break;
@@ -270,10 +304,16 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelFloor)
         {
             case 25:
+                data.FloorRackV1.SetActive(false);
+                data.FloorRackV2.SetActive(true);
                 break;
             case 50:
+                data.FloorRackV2.SetActive(false);
+                data.FloorRackV3.SetActive(true);
                 break;
             case 75:
+                data.FloorRackV3.SetActive(false);
+                data.FloorRackV4.SetActive(true);
                 break;
             default:
                 break;
@@ -293,12 +333,19 @@ public class UpgradeManager : MonoBehaviour
         switch (data.clickUpgradeLevelCarpet)
         {
             case 1:
+                data.CarpetRackV1.SetActive(true);
                 break;
             case 25:
+                data.CarpetRackV1.SetActive(false);
+                data.CarpetRackV2.SetActive(true);
                 break;
             case 50:
+                data.CarpetRackV2.SetActive(false);
+                data.CarpetRackV3.SetActive(true);
                 break;
             case 75:
+                data.CarpetRackV3.SetActive(false);
+                data.CarpetRackV4.SetActive(true);
                 break;
             default:
                 break;
