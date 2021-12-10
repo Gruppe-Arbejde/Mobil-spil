@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TOSButton : MonoBehaviour
+public class PrivacyPolicy : MonoBehaviour
 {
     public string Url;
 
