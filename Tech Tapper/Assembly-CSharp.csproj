@@ -48,7 +48,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BackgroundMusic.cs" />
-     <Compile Include="Assets\Scripts\TOSButton.cs" />
+     <Compile Include="Assets\Scripts\CanvasHelper.cs" />
+     <Compile Include="Assets\Scripts\PrivacyPolicy.cs" />
      <Compile Include="Assets\Scripts\AdsInitializer.cs" />
      <Compile Include="Assets\Scripts\RewardedAdsButton.cs" />
      <Compile Include="Assets\Scripts\ButtonHandler.cs" />
@@ -723,6 +724,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.DeviceSimulator.Editor">
+ <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Mathematics.Editor">
  <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
  </Reference>
@@ -735,11 +739,11 @@
  <Reference Include="Unity.2D.SpriteShape.Editor">
  <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Common.Editor">
- <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
  <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
  <HintPath>C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>

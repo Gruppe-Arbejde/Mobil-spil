@@ -10,7 +10,6 @@
 #include <limits>
 #include <stdint.h>
 
-#include "icalls/mscorlib/System/CurrentSystemTimeZone.h"
 #include "icalls/mscorlib/System.Reflection/CustomAttributeData.h"
 #include "icalls/mscorlib/System/DateTime.h"
 
@@ -137,8 +136,6 @@ struct CustomAttributeTypedArgumentU5BU5D_t20B1BE58263263B492DAC21E270358FB31189
 struct DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8;
 // System.Int32[]
 struct Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32;
-// System.Int64[]
-struct Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6;
 // System.IntPtr[]
 struct IntPtrU5BU5D_t27FC72B0409D75AAF33EC42498E8094E95FEE9A6;
 // System.Object[]
@@ -185,8 +182,6 @@ struct CultureData_t53CDF1C5F789A28897415891667799420D3C5529;
 struct CultureInfo_t1B787142231DB79ABDCE0659823F908A040E9A98;
 // System.Globalization.CultureNotFoundException
 struct CultureNotFoundException_tF7A5916D7F7C5CC3780AF5C14DE18006B4DD161C;
-// System.CurrentSystemTimeZone
-struct CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A;
 // System.Reflection.CustomAttributeData
 struct CustomAttributeData_t4F8D66DDB6D3F7E8C39AF85752A0CC9679A4CE85;
 // System.Reflection.CustomAttributeFormatException
@@ -291,8 +286,6 @@ struct StringBuilder_t;
 struct TextInfo_tE823D0684BFE8B203501C9B2B38585E8F06E872C;
 // System.Threading.Thread
 struct Thread_tB9EB71664220EE16451AF3276D78DE6614D2A414;
-// System.TimeZone
-struct TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5;
 // System.TimeZoneInfo
 struct TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074;
 // System.Globalization.TokenHashValue
@@ -368,7 +361,6 @@ IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TaiwanCalendar_tF03DACFCF8C6BC8EDD68CADE289D6A32FBBC516C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TokenHashValueU5BU5D_t9A8634CBD651EB5F814E7CF9819D44963D8546D3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TokenHashValue_tB0AE1E936B85B34D296293DC063F53900B629BBE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
@@ -637,7 +629,6 @@ struct CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34;
 struct CustomAttributeNamedArgumentU5BU5D_t4EC7EAEB21A9435BFB8F2693AE8B3AD73E574451;
 struct CustomAttributeTypedArgumentU5BU5D_t20B1BE58263263B492DAC21E270358FB31189F98;
 struct Int32U5BU5D_t70F1BDC14B1786481B176D6139A5E3B87DC54C32;
-struct Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6;
 struct ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE;
 struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A;
 struct TokenHashValueU5BU5D_t9A8634CBD651EB5F814E7CF9819D44963D8546D3;
@@ -2300,32 +2291,6 @@ public:
 };
 
 
-// System.TimeZone
-struct TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_StaticFields
-{
-public:
-	// System.Object System.TimeZone::tz_lock
-	RuntimeObject * ___tz_lock_0;
-
-public:
-	inline static int32_t get_offset_of_tz_lock_0() { return static_cast<int32_t>(offsetof(TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_StaticFields, ___tz_lock_0)); }
-	inline RuntimeObject * get_tz_lock_0() const { return ___tz_lock_0; }
-	inline RuntimeObject ** get_address_of_tz_lock_0() { return &___tz_lock_0; }
-	inline void set_tz_lock_0(RuntimeObject * value)
-	{
-		___tz_lock_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___tz_lock_0), (void*)value);
-	}
-};
-
-
 // System.ValueType
 struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52  : public RuntimeObject
 {
@@ -2466,25 +2431,6 @@ public:
 	{
 		___categoryForLatin1_3 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___categoryForLatin1_3), (void*)value);
-	}
-};
-
-
-// System.CurrentSystemTimeZone
-struct CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A  : public TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5
-{
-public:
-	// System.TimeZoneInfo System.CurrentSystemTimeZone::LocalTimeZone
-	TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * ___LocalTimeZone_1;
-
-public:
-	inline static int32_t get_offset_of_LocalTimeZone_1() { return static_cast<int32_t>(offsetof(CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A, ___LocalTimeZone_1)); }
-	inline TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * get_LocalTimeZone_1() const { return ___LocalTimeZone_1; }
-	inline TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 ** get_address_of_LocalTimeZone_1() { return &___LocalTimeZone_1; }
-	inline void set_LocalTimeZone_1(TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * value)
-	{
-		___LocalTimeZone_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___LocalTimeZone_1), (void*)value);
 	}
 };
 
@@ -9073,78 +9019,6 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// System.Int64[]
-struct Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) int64_t m_Items[1];
-
-public:
-	inline int64_t GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline int64_t* GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, int64_t value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-	}
-	inline int64_t GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline int64_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, int64_t value)
-	{
-		m_Items[index] = value;
-	}
-};
-// System.String[]
-struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) String_t* m_Items[1];
-
-public:
-	inline String_t* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline String_t** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, String_t* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
 // System.Object[]
 struct ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE  : public RuntimeArray
 {
@@ -9307,6 +9181,43 @@ public:
 	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
 	{
 		m_Items[index] = value;
+	}
+};
+// System.String[]
+struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+public:
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
 // System.Char[]
@@ -9490,10 +9401,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m5D84793
 // T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * List_1_get_Item_mF00B574E58FB078BB753B05A3B86DD0A7A266B63_gshared_inline (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, int32_t ___index0, const RuntimeMethod* method);
 
-// System.Void System.TimeZone::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeZone__ctor_m325FB2DDABD0CD6599F0D840B2F5AC7C4D2171CB (TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5 * __this, const RuntimeMethod* method);
-// System.TimeZoneInfo System.TimeZoneInfo::get_Local()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * TimeZoneInfo_get_Local_m2C2645D8BAB720A34942820DD3DC1A541BEC51C9 (const RuntimeMethod* method);
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method);
 // System.Void System.Reflection.CustomAttributeData/LazyCAttrData::.ctor()
@@ -9688,6 +9595,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DateTime_Equals_m22392E29066D685DB7DD20C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  TimeZoneInfo_GetLocalUtcOffset_m0BB02611FD7B4B1E2E92D2FF2CA32FE9536E6C77 (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___dateTime0, int32_t ___flags1, const RuntimeMethod* method);
 // System.Int64 System.TimeSpan::get_Ticks()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t TimeSpan_get_Ticks_mE4C9E1F27DC794028CEDCF7CB5BD092D16DBACD4_inline (TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * __this, const RuntimeMethod* method);
+// System.TimeZoneInfo System.TimeZoneInfo::get_Local()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * TimeZoneInfo_get_Local_m2C2645D8BAB720A34942820DD3DC1A541BEC51C9 (const RuntimeMethod* method);
 // System.TimeSpan System.TimeZoneInfo::GetUtcOffsetFromUtc(System.DateTime,System.TimeZoneInfo,System.Boolean&,System.Boolean&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  TimeZoneInfo_GetUtcOffsetFromUtc_m1B6E6EF126B2A2598677CF3E60F91A08CF01E965 (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  ___time0, TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * ___zone1, bool* ___isDaylightSavings2, bool* ___isAmbiguousLocalDst3, const RuntimeMethod* method);
 // System.DateTime System.DateTime::FromBinaryRaw(System.Int64)
@@ -10394,39 +10303,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t __DTString_GetDigit_m1E72B949EFA46A50
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchNumberDelegate__ctor_m0E2AE677ED4E5754C30BC2DDE8B7DC8C4F46C5A7 (MatchNumberDelegate_t4EB7A242D7C0B4570F59DD93F38AB3422672B199 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void System.ThrowHelper::ThrowArgumentOutOfRangeException()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_m4841366ABC2B2AFA37C10900551D7E07522C0929 (const RuntimeMethod* method);
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void System.CurrentSystemTimeZone::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CurrentSystemTimeZone__ctor_mBC7AFE6C7015519942ABC0C365510DA64CB4756A (CurrentSystemTimeZone_t1D374DF5A6A47A1790B1BF8759342E40E0CD129A * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(TimeZone_t7BDF23D00BD0964D237E34664984422C85EB43F5_il2cpp_TypeInfo_var);
-		TimeZone__ctor_m325FB2DDABD0CD6599F0D840B2F5AC7C4D2171CB(__this, /*hidden argument*/NULL);
-		TimeZoneInfo_t6988042963E068DC7DE283E2D0902C0B8A40C074 * L_0;
-		L_0 = TimeZoneInfo_get_Local_m2C2645D8BAB720A34942820DD3DC1A541BEC51C9(/*hidden argument*/NULL);
-		__this->set_LocalTimeZone_1(L_0);
-		return;
-	}
-}
-// System.Boolean System.CurrentSystemTimeZone::GetTimeZoneData(System.Int32,System.Int64[]&,System.String[]&,System.Boolean&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CurrentSystemTimeZone_GetTimeZoneData_mB8DBC355131D62B9C956252F6724668A8C8746C4 (int32_t ___year0, Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6** ___data1, StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A** ___names2, bool* ___daylight_inverted3, const RuntimeMethod* method)
-{
-	typedef bool (*CurrentSystemTimeZone_GetTimeZoneData_mB8DBC355131D62B9C956252F6724668A8C8746C4_ftn) (int32_t, Int64U5BU5D_tCA61E42872C63A4286B24EEE6E0650143B43DCE6**, StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A**, bool*);
-	using namespace il2cpp::icalls;
-	return ((CurrentSystemTimeZone_GetTimeZoneData_mB8DBC355131D62B9C956252F6724668A8C8746C4_ftn)mscorlib::System::CurrentSystemTimeZone::GetTimeZoneData40) (___year0, ___data1, ___names2, ___daylight_inverted3);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
