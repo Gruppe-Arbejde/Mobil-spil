@@ -8,6 +8,7 @@ public class UpgradeManager : MonoBehaviour
     public UpgradeData data = new UpgradeData();
     public ClickUpgrades clickUpgrade = new ClickUpgrades();
     public Manager man = new Manager();
+    public ShopIconData sid = new ShopIconData();
 
     // Start is called before the first frame update
     public void Start()
@@ -151,14 +152,26 @@ public class UpgradeManager : MonoBehaviour
         {
             case 1:
                 data.serverRackV1.SetActive(true);
+
+                //icon handling
+                sid.iconServerV1.SetActive(false);
+                sid.iconServerV2.SetActive(true);
                 break;
             case 25:
-                data.serverRackV1.SetActive(false);
-                data.serverRackV2.SetActive(true);
-                break;
-            case 50:
                 data.serverRackV2.SetActive(false);
                 data.serverRackV3.SetActive(true);
+
+                //icon handling
+                sid.iconServerV3.SetActive(true);
+                sid.iconServerV4.SetActive(false);
+                break;
+            case 50:
+                data.serverRackV2.SetActive(true);
+                data.serverRackV3.SetActive(true);
+
+                //icon handling
+                sid.iconServerV3.SetActive(false);
+                sid.iconServerV4.SetActive(true);
                 break;
             case 75:
                 data.serverRackV3.SetActive(false);
@@ -187,10 +200,18 @@ public class UpgradeManager : MonoBehaviour
             case 25:
                 data.TableV1.SetActive(false);
                 data.TableV2.SetActive(true);
+
+                //icon handling
+                sid.iconTableV2.SetActive(false);
+                sid.iconTableV3.SetActive(true);
                 break;
             case 50:
-                data.TableV2.SetActive(false);
-                data.TableV3.SetActive(true);
+                data.TableV3.SetActive(false);
+                data.TableV4.SetActive(true);
+
+                //icon handling
+                sid.iconTableV3.SetActive(false);
+                sid.iconTableV4.SetActive(true);
                 break;
             case 75:
                 data.TableV3.SetActive(false);
@@ -216,10 +237,18 @@ public class UpgradeManager : MonoBehaviour
             case 25:
                 data.ChairV1.SetActive(false);
                 data.ChairV2.SetActive(true);
+
+                //icon handling
+                sid.iconChairV2.SetActive(false);
+                sid.iconChairV3.SetActive(true);
                 break;
             case 50:
                 data.ChairV2.SetActive(false);
                 data.ChairV3.SetActive(true);
+
+                //icon handling
+                sid.iconChairV3.SetActive(false);
+                sid.iconChairV4.SetActive(true);
                 break;
             case 75:
                 data.ChairV3.SetActive(false);
@@ -245,10 +274,18 @@ public class UpgradeManager : MonoBehaviour
             case 25:
                 data.WallV1.SetActive(false);
                 data.WallV2.SetActive(true);
+
+                //icon handling
+                sid.iconWallV2.SetActive(false);
+                sid.iconWallV3.SetActive(true);
                 break;
             case 50:
                 data.WallV2.SetActive(false);
                 data.WallV3.SetActive(true);
+
+                //icon handling
+                sid.iconWallV3.SetActive(false);
+                sid.iconWallV4.SetActive(true);
                 break;
             case 75:
                 data.WallV3.SetActive(false);
@@ -273,17 +310,24 @@ public class UpgradeManager : MonoBehaviour
         {
             case 1:
                 data.PosterRackV1.SetActive(true);
+
+                //icon handling
+                sid.iconPosterV1.SetActive(false);
+                sid.iconPosterV2.SetActive(true);
                 break;
             case 25:
-                data.PosterRackV1.SetActive(false);
                 data.PosterRackV2.SetActive(true);
+
+                //icon handling
+                sid.iconPosterV2.SetActive(false);
+                sid.iconPosterV3.SetActive(true);
                 break;
             case 50:
-                data.PosterRackV2.SetActive(false);
+                data.PosterRackV1.SetActive(false);
                 data.PosterRackV3.SetActive(true);
                 break;
             case 75:
-                data.PosterRackV3.SetActive(false);
+                data.PosterRackV2.SetActive(false);
                 data.PosterRackV4.SetActive(true);
                 break;
             default:
@@ -306,10 +350,17 @@ public class UpgradeManager : MonoBehaviour
             case 25:
                 data.FloorRackV1.SetActive(false);
                 data.FloorRackV2.SetActive(true);
+
+                //icon handling
+                sid.iconFloorV3.SetActive(true);
                 break;
             case 50:
                 data.FloorRackV2.SetActive(false);
                 data.FloorRackV3.SetActive(true);
+
+                //icon handling
+                sid.iconFloorV3.SetActive(false);
+                sid.iconFloorV4.SetActive(true);
                 break;
             case 75:
                 data.FloorRackV3.SetActive(false);
@@ -334,14 +385,26 @@ public class UpgradeManager : MonoBehaviour
         {
             case 1:
                 data.CarpetRackV1.SetActive(true);
+
+                //icon handling
+                sid.iconCarpetV1.SetActive(false);
+                sid.iconCarpetV2.SetActive(true);
                 break;
             case 25:
                 data.CarpetRackV1.SetActive(false);
                 data.CarpetRackV2.SetActive(true);
+
+                //icon handling
+                sid.iconCarpetV2.SetActive(false);
+                sid.iconCarpetV3.SetActive(true);
                 break;
             case 50:
                 data.CarpetRackV2.SetActive(false);
                 data.CarpetRackV3.SetActive(true);
+
+                //icon handling
+                sid.iconCarpetV3.SetActive(false);
+                sid.iconCarpetV4.SetActive(true);
                 break;
             case 75:
                 data.CarpetRackV3.SetActive(false);

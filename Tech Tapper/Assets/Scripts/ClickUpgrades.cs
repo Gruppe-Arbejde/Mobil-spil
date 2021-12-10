@@ -4,7 +4,8 @@ using UnityEngine;
 using TMPro;
 
 public class ClickUpgrades : MonoBehaviour
-{   
+{
+    #region shop ui text elements
     //Keyboard
     public TMP_Text LevelTextKeyboard;
     public TMP_Text CostTextKeyboard;
@@ -44,4 +45,5 @@ public class ClickUpgrades : MonoBehaviour
     //Carpet
     public TMP_Text LevelTextCarpet;
     public TMP_Text CostTextCarpet;
+    #endregion
 }

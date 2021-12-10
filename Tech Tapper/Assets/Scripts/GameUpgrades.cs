@@ -16,8 +16,6 @@ public class GameUpgrades : MonoBehaviour
     public AudioSource tap3SFX;
     public AudioSource tap4SFX;
     System.Random rd = new System.Random();
-    PlayerAnimation pa = new PlayerAnimation();
-
     public void Increment()
     {
         Manager.clicksU += Manager.multiplier;
