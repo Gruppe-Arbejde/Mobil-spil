@@ -36,7 +36,7 @@ public class UpgradeData : MonoBehaviour
     //}
     public double CostKeyboard()
     {
-        return clickUpgradeBaseCostKeyboard * Math.Pow(clickUpgradeCostMultKeyboard, clickUpgradeLevelKeyboard);
+        return clickUpgradeBaseCostKeyboard * Math.Pow(clickUpgradeCostMultKeyboard, clickUpgradeLevelKeyboard); //cost * 1.5^lvl
     }
     public double CostMouse()
     {

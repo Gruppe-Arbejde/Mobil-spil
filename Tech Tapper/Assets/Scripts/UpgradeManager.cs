@@ -18,7 +18,7 @@ public class UpgradeManager : MonoBehaviour
         //clickUpgradeCostMult = 1.5;
         UpdateClickUpgradeUi();
     }
-
+    //compile
     public void UpdateClickUpgradeUi()
     {
         //Keyboard UI
