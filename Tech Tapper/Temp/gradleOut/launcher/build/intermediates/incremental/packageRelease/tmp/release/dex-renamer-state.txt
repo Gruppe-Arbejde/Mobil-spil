@@ -1,0 +1,4 @@
+#Fri Dec 10 14:23:05 CET 2021
+base.0=C\:\\Users\\Maximus Janning Juul\\Documents\\GitHub\\Mobil-spil\\Tech Tapper\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

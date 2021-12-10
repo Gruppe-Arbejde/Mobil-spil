@@ -1,16 +1,16 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AdsInitializer
     - ButtonHandler
     - ClickSFXManager
+    - ClickUpgrades
+    - GameUpgrades
     - Manager
     - MusicHandler
     - PlaySoundEffect
-    - RewardedAdsButton
-    - SaveManager
     - SettingsHandler
-    - TOSButton
+    - UpgradeData
+    - UpgradeManager
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -25,7 +25,10 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.CollabProxy.Editor.dll:
-    - Unity.Cloud.Collaborate.UserInterface.WindowCache
+    - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
+    Unity.DeviceSimulator.Editor.dll:
+    - UnityEditor.DeviceSimulation.DeviceInfoAsset
+    - UnityEditor.DeviceSimulation.SimulatorWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -50,6 +53,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
@@ -78,57 +82,59 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1588}
+      Script: {instanceID: 1622}
     - Class: 114
-      Script: {instanceID: 1808}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1924}
+      Script: {instanceID: 1958}
     - Class: 114
-      Script: {instanceID: 2360}
+      Script: {instanceID: 2394}
     - Class: 114
-      Script: {instanceID: 2368}
+      Script: {instanceID: 2402}
     - Class: 114
-      Script: {instanceID: 2400}
+      Script: {instanceID: 2706}
     - Class: 114
-      Script: {instanceID: 2670}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 2838}
+      Script: {instanceID: 3060}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3082}
+      Script: {instanceID: 3168}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3318}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 3356}
     - Class: 114
-      Script: {instanceID: 3534}
+      Script: {instanceID: 3360}
     - Class: 114
-      Script: {instanceID: 3664}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 4064}
+      Script: {instanceID: 3706}
     - Class: 114
-      Script: {instanceID: 4092}
+      Script: {instanceID: 4040}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 4106}
     - Class: 114
-      Script: {instanceID: 4810}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 5032}
+      Script: {instanceID: 4180}
     - Class: 114
-      Script: {instanceID: 5172}
+      Script: {instanceID: 4328}
     - Class: 114
-      Script: {instanceID: 5328}
+      Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 5658}
+      Script: {instanceID: 5078}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5218}
     - Class: 114
-      Script: {instanceID: 18572}
+      Script: {instanceID: 5646}
     - Class: 114
-      Script: {instanceID: 24060}
+      Script: {instanceID: 5704}
+    - Class: 114
+      Script: {instanceID: 5928}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -253,7 +259,7 @@ ScriptsOnlyBuild:
       Hash: e90137b14c2644736d5abeafc2b26c9a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: TOSButton
+    className: PrivacyPolicy
   - hash:
       serializedVersion: 2
       Hash: 91d258529db2b5060a913f2afcea1a21
@@ -274,10 +280,22 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: eaa64a47e0407018d8a8f575b71dc4fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdsInitializer
+  - hash:
+      serializedVersion: 2
       Hash: cfdd0010efd7b54c2b7512656dbc9119
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: bf7d0c76b8fb15b304a476c92ae7a090
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RewardedAdsButton
   - hash:
       serializedVersion: 2
       Hash: e2e61e07ad0e1248464a8a52eb2f1df6
@@ -340,6 +358,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 421066624d686ec4a4c65c0f92168af6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpgradeData
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.Advertisements.dll
     namespaceName: UnityEngine.Advertisements
@@ -362,6 +386,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MusicHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 93aaf409855c455979b8beea64f90ea7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpgradeManager
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -514,6 +544,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 6e137cc4ccdaf6474c9823184dd2d649
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameUpgrades
+  - hash:
+      serializedVersion: 2
       Hash: da4cc51a02ce84afe2cecd27cfe6997a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -542,6 +578,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f140ea610fe41df68065ef9cebfb989f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickUpgrades
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -700,7 +742,7 @@ ScriptsOnlyBuild:
     className: ClickSFXManager
   - hash:
       serializedVersion: 2
-      Hash: af8ea5feca7a08b1e5e1515bd496b0b1
+      Hash: 261b5d1223d205630ee7f1bf5d552e04
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Manager
@@ -742,17 +784,11 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: eaa64a47e0407018d8a8f575b71dc4fb
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: AdsInitializer
-  - hash:
-      serializedVersion: 2
-      Hash: bf7d0c76b8fb15b304a476c92ae7a090
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RewardedAdsButton
+    className: CanvasHelper
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main.unity
-  playerPath: C:/Users/maxim/Documents/GitHub/Mobil-spil/Tech Tapper/test1.7.apk
+  playerPath: C:/Users/Maximus Janning Juul/Documents/GitHub/Mobil-spil/Tech Tapper/test1.0.apk
